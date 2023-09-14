@@ -26,7 +26,7 @@ const links = [
 
 export default function Nav() {
   return (
-    <div className='flex justify-between items-center w-full px-20 py-4'>
+    <div className='flex justify-between items-center w-full px-10 py-4'>
       <Link href='/'>
         <Image src='/logo.svg' width={133} height={29} alt='Integraflow' />
       </Link>

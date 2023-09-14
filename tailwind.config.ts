@@ -15,7 +15,12 @@ const config: Config = {
       },
       colors: {
         primary: '#545F71',
+        IFTextBold: '#D8D4FF',
+        IFText: '#AFAAC7',
         IFPurple: '#241663',
+        IFPurpleLight: '#302852',
+        IFPurpleDark: '#322751',
+        IFGreen: '#7EE787',
       },
     },
   },

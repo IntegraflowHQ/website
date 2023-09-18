@@ -25,10 +25,9 @@ const CurlyBracket = () => (
   </strong>
 );
 
-export default function UseCases() {
+export default function Possibilities() {
   return (
     <section
-      id='use-cases'
       className='bg-IFBlack py-16'
       style={{
         backgroundImage: 'url(/bg/use-cases.png)',

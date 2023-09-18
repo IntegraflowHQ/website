@@ -46,7 +46,7 @@ export default function Nav() {
           ))}
         </ul>
       </div>
-      <Button text='Join waitlist' />
+      <Button text='Join waitlist' className='py-[16px] text-sm font-normal' />
     </div>
   );
 }

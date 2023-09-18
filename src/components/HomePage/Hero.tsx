@@ -23,7 +23,7 @@ export default function Hero() {
           mixBlendMode: 'multiply',
         }}
       >
-        <div className='h-full flex flex-col justify-between items-center max-w-[930px] mx-auto'>
+        <div className='h-full flex flex-col justify-between items-center max-w-[930px] mx-auto pb-5'>
           <div />
           <div className='text-center'>
             <div
@@ -57,13 +57,10 @@ export default function Hero() {
               </p>
             </header>
             <div className='flex justify-center space-x-2 pt-8'>
-              <Button
-                text='Get early access today'
-                className='text-base font-medium w-56 h-14'
-              />
+              <Button text='Get early access today' className='w-[240px]' />
               <Button
                 text='Check demo'
-                className='text-base font-medium rounded-lg w-56 h-14'
+                className='w-[240px]'
                 variant='secondary'
               />
             </div>

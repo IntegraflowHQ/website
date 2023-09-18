@@ -1,3 +1,6 @@
+import Image from 'next/image';
+import Button from '../Button';
+
 const useCases = [
   {
     title: 'Analytics tools',
@@ -24,14 +27,22 @@ const CurlyBracket = () => (
 
 export default function UseCases() {
   return (
-    <section id='use-cases' className='bg-IFBlack py-16'>
-      <section className='container flex mx-auto'>
+    <section
+      id='use-cases'
+      className='bg-IFBlack py-16'
+      style={{
+        backgroundImage: 'url(/bg/use-cases.png)',
+        backgroundPosition: 'center right',
+        backgroundRepeat: 'no-repeat',
+      }}
+    >
+      <section className='flex gap-10 max-w-[950px] mx-auto'>
         <section className='max-w-[419px]'>
           <header className='space-y-2'>
             <h2 className='text-IFTextBold text-[44px] leading-[52px] font-medium'>
               See What You can do with Integraflow
             </h2>
-            <p className='text-IFText text-base font-normal'>
+            <p className='text-IFText text-base font-normal pb-5'>
               Automate. Simplify. Track Your Ever-Changing Customer’s Journey in
               One Space
             </p>
@@ -52,6 +63,20 @@ export default function UseCases() {
               </section>
             ))}
           </div>
+
+          <div className='pt-8 pl-[60px]'>
+            <Button text='Get early access today' />
+          </div>
+        </section>
+
+        <section className='flex-1'>
+          <Image
+            src='/bg/user.png'
+            alt='Use cases'
+            width={800}
+            height={533}
+            className='block h-full w-full object-cover object-right'
+          />
         </section>
       </section>
     </section>

@@ -16,7 +16,7 @@ export default function Button({
   return (
     <button
       className={cn(
-        'px-8 py-[14px] rounded-lg font-normal text-sm text-white',
+        'px-8 py-4 rounded-lg font-medium text-base text-white',
         variant === 'secondary'
           ? 'bg-IFPurpleDark border border-[#53389E]'
           : 'bg-gradient-button',

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Button from '../Button';
 
 export default function Hero() {
   return (
@@ -56,12 +57,15 @@ export default function Hero() {
               </p>
             </header>
             <div className='flex justify-center space-x-2 pt-8'>
-              <button className='text-white text-base font-medium bg-IFPurple rounded-lg w-56 h-14'>
-                Get early access today
-              </button>
-              <button className='text-white text-base font-medium bg-IFPurpleDark rounded-lg w-56 h-14'>
-                Check demo
-              </button>
+              <Button
+                text='Get early access today'
+                className='text-base font-medium w-56 h-14'
+              />
+              <Button
+                text='Check demo'
+                className='text-base font-medium rounded-lg w-56 h-14'
+                variant='secondary'
+              />
             </div>
           </div>
           <div className='flex items-center gap-[14px]'>

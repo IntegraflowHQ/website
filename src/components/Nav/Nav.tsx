@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Button from '../Button';
 
 const links = [
   {
@@ -45,9 +46,7 @@ export default function Nav() {
           ))}
         </ul>
       </div>
-      <button className='text-white text-sm font-normal bg-IFPurple rounded-lg px-8 py-[14px]'>
-        Join waitlist
-      </button>
+      <Button text='Join waitlist' />
     </div>
   );
 }

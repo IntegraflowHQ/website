@@ -12,6 +12,8 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-button':
+          'linear-gradient(27deg, #53389E 8.33%, #6941C6 91.67%)',
       },
       colors: {
         primary: '#545F71',
@@ -21,6 +23,7 @@ const config: Config = {
         IFPurpleLight: '#302852',
         IFPurpleDark: '#322751',
         IFGreen: '#7EE787',
+        IFBlack: '#050505',
       },
     },
   },

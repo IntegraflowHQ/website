@@ -2,6 +2,7 @@ import Hero from '@/components/HomePage/Hero';
 import Possibilities from '@/components/HomePage/Possibilities';
 import Showcase from '@/components/HomePage/Showcase';
 import SurveryTypes from '@/components/HomePage/SurveryTypes';
+import WhoCanUse from '@/components/HomePage/WhoCanUse';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Possibilities />
       <SurveryTypes />
       <Showcase />
+      <WhoCanUse />
     </main>
   );
 }

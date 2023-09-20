@@ -1,3 +1,4 @@
+import Data from '@/components/HomePage/Data';
 import Hero from '@/components/HomePage/Hero';
 import Possibilities from '@/components/HomePage/Possibilities';
 import Showcase from '@/components/HomePage/Showcase';
@@ -12,6 +13,7 @@ export default function Home() {
       <SurveryTypes />
       <Showcase />
       <WhoCanUse />
+      <Data />
     </main>
   );
 }

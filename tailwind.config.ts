@@ -19,6 +19,7 @@ const config: Config = {
         primary: '#545F71',
         IFTextBold: '#D8D4FF',
         IFText: '#AFAAC7',
+        IFTextLight: '#DDD',
         IFPurple: '#241663',
         IFPurpleLight: '#302852',
         IFPurpleDark: '#322751',

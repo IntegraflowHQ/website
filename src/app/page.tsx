@@ -1,4 +1,5 @@
 import Data from '@/components/HomePage/Data';
+import FAQ from '@/components/HomePage/FAQ';
 import Hero from '@/components/HomePage/Hero';
 import Possibilities from '@/components/HomePage/Possibilities';
 import Showcase from '@/components/HomePage/Showcase';
@@ -14,6 +15,7 @@ export default function Home() {
       <Showcase />
       <WhoCanUse />
       <Data />
+      <FAQ />
     </main>
   );
 }

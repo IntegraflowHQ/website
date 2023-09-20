@@ -15,7 +15,7 @@ export default function SurveryTypes() {
         backgroundPosition: 'left center, right center, center',
         backgroundRepeat: 'no-repeat, no-repeat, no-repeat',
         backgroundSize: 'auto 1092px, auto 1092px, cover',
-        backgroundColor: 'black',
+        backgroundColor: '#0F0F0F',
       }}
     >
       <div className='flex items-center gap-[71px] mx-auto w-max'>

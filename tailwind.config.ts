@@ -20,6 +20,7 @@ const config: Config = {
         IFTextBold: '#D8D4FF',
         IFText: '#AFAAC7',
         IFTextLight: '#DDD',
+        IFText200: '#CFCFCF',
         IFPurple: '#241663',
         IFPurpleLight: '#302852',
         IFPurpleDark: '#322751',

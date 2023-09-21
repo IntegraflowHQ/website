@@ -10,18 +10,18 @@ export const Telegram = () => {
       <g transform='translate(51.2,51.2) scale(0.6,0.6)'>
         <g
           fill='#ffffff'
-          fill-rule='nonzero'
+          fillRule='nonzero'
           stroke='none'
-          stroke-width='1'
-          stroke-linecap='butt'
-          stroke-linejoin='miter'
-          stroke-miterlimit='10'
-          stroke-dasharray=''
-          stroke-dashoffset='0'
-          font-family='none'
-          font-weight='none'
-          font-size='none'
-          text-anchor='none'
+          strokeWidth='1'
+          strokeLinecap='butt'
+          strokeLinejoin='miter'
+          strokeMiterlimit='10'
+          strokeDasharray=''
+          strokeDashoffset='0'
+          fontFamily='none'
+          fontWeight='none'
+          fontSize='none'
+          textAnchor='none'
           style={{ mixBlendMode: 'normal' }}
         >
           <path
@@ -31,18 +31,18 @@ export const Telegram = () => {
         </g>
         <g
           fill='none'
-          fill-rule='nonzero'
+          fillRule='nonzero'
           stroke='none'
-          stroke-width='1'
-          stroke-linecap='butt'
-          stroke-linejoin='miter'
-          stroke-miterlimit='10'
-          stroke-dasharray=''
-          stroke-dashoffset='0'
-          font-family='none'
-          font-weight='none'
-          font-size='none'
-          text-anchor='none'
+          strokeWidth='1'
+          strokeLinecap='butt'
+          strokeLinejoin='miter'
+          strokeMiterlimit='10'
+          strokeDasharray=''
+          strokeDashoffset='0'
+          fontFamily='none'
+          fontWeight='none'
+          fontSize='none'
+          textAnchor='none'
           style={{ mixBlendMode: 'normal' }}
         >
           <g transform='scale(5.33333,5.33333)'>

@@ -14,7 +14,7 @@ export const Make = () => {
         rx='14'
         fill='white'
       />
-      <g clip-path='url(#clip0_1674_6662)'>
+      <g clipPath='url(#clip0_1674_6662)'>
         <mask
           id='mask0_1674_6662'
           style={{ maskType: 'luminance' }}
@@ -85,10 +85,10 @@ export const Make = () => {
           y2='24.6591'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#B02DE9' />
-          <stop offset='0.02' stop-color='#B02DE9' />
-          <stop offset='0.8' stop-color='#6D00CC' />
-          <stop offset='1' stop-color='#6D00CC' />
+          <stop stopColor='#B02DE9' />
+          <stop offset='0.02' stopColor='#B02DE9' />
+          <stop offset='0.8' stopColor='#6D00CC' />
+          <stop offset='1' stopColor='#6D00CC' />
         </linearGradient>
         <linearGradient
           id='paint1_linear_1674_6662'
@@ -98,11 +98,11 @@ export const Make = () => {
           y2='21.249'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#FF00FF' />
-          <stop offset='0.17' stop-color='#E90CF9' />
-          <stop offset='0.54' stop-color='#C023ED' />
-          <stop offset='0.73' stop-color='#B02DE9' />
-          <stop offset='1' stop-color='#B02DE9' />
+          <stop stopColor='#FF00FF' />
+          <stop offset='0.17' stopColor='#E90CF9' />
+          <stop offset='0.54' stopColor='#C023ED' />
+          <stop offset='0.73' stopColor='#B02DE9' />
+          <stop offset='1' stopColor='#B02DE9' />
         </linearGradient>
         <linearGradient
           id='paint2_linear_1674_6662'
@@ -112,15 +112,15 @@ export const Make = () => {
           y2='21.4627'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#FF00FF' />
-          <stop offset='0.02' stop-color='#FF00FF' />
-          <stop offset='0.09' stop-color='#E90CF9' />
-          <stop offset='0.23' stop-color='#C023ED' />
-          <stop offset='0.3' stop-color='#B02DE9' />
-          <stop offset='0.42' stop-color='#A42BE3' />
-          <stop offset='0.63' stop-color='#8626D5' />
-          <stop offset='0.85' stop-color='#6021C3' />
-          <stop offset='1' stop-color='#6021C3' />
+          <stop stopColor='#FF00FF' />
+          <stop offset='0.02' stopColor='#FF00FF' />
+          <stop offset='0.09' stopColor='#E90CF9' />
+          <stop offset='0.23' stopColor='#C023ED' />
+          <stop offset='0.3' stopColor='#B02DE9' />
+          <stop offset='0.42' stopColor='#A42BE3' />
+          <stop offset='0.63' stopColor='#8626D5' />
+          <stop offset='0.85' stopColor='#6021C3' />
+          <stop offset='1' stopColor='#6021C3' />
         </linearGradient>
         <clipPath id='clip0_1674_6662'>
           <rect

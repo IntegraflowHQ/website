@@ -15,7 +15,7 @@ export const Discord = () => {
         rx='14'
         fill='white'
       />
-      <g clip-path='url(#clip0_1658_20041)'>
+      <g clipPath='url(#clip0_1658_20041)'>
         <mask
           id='mask0_1658_20041'
           style={{ maskType: 'luminance' }}

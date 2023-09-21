@@ -15,7 +15,7 @@ export const Zendesk = () => {
         rx='14'
         fill='white'
       />
-      <g clip-path='url(#clip0_1646_19360)'>
+      <g clipPath='url(#clip0_1646_19360)'>
         <path
           d='M24.0289 19.4895V39.5618H7.39844L24.0289 19.4895Z'
           fill='#03363D'

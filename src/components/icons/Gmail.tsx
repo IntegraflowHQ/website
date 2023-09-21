@@ -15,7 +15,7 @@ export const Gmail = () => {
         rx='14'
         fill='white'
       />
-      <g clip-path='url(#clip0_1658_19844)'>
+      <g clipPath='url(#clip0_1658_19844)'>
         <path
           d='M12.2463 37.039H17.0318V25.4676L10.1953 20.3247V34.9899C10.1953 36.1149 11.1202 37.039 12.2463 37.039Z'
           fill='#4285F4'

@@ -21,11 +21,11 @@ export const Sheets = () => {
         y='11.7109'
         width='20'
         height='28'
-        fill='url(#pattern0)'
+        fill='url(#sheetsIcon)'
       />
       <defs>
         <pattern
-          id='pattern0'
+          id='sheetsIcon'
           patternContentUnits='objectBoundingBox'
           width='1'
           height='1'

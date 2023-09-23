@@ -5,7 +5,7 @@ import Button from '../Button';
 export default function Hero() {
   return (
     <div
-      className='w-full h-[calc(100vh-80px)] rounded-b-3xl'
+      className='w-full rounded-b-3xl'
       style={{
         backgroundImage: "url(/bg-dots.svg), url('/bg-line.svg'), url(/bg.svg)",
         backgroundRepeat: 'no-repeat, no-repeat ,no-repeat',
@@ -16,7 +16,7 @@ export default function Hero() {
       }}
     >
       <div
-        className='w-full h-full rounded-b-3xl'
+        className='w-full h-full rounded-b-3xl pt-[122px]'
         style={{
           backgroundImage:
             'linear-gradient(140deg, rgba(28, 15, 89, 1) 40%, rgba(0, 107, 41, 1))',
@@ -49,7 +49,7 @@ export default function Hero() {
                 Boost your business output, online or offline, with valuable
                 customer insights
               </h1>
-              <p className='text-IFText pt-4'>
+              <p className='text-IFText pt-4 max-w-[649px] mx-auto'>
                 Redefine customer experience with organic feedback and
                 behavioral data in real-time. Enjoy intuitive designs, open
                 source surveys, advanced analytics, seamless collaboration on
@@ -65,7 +65,7 @@ export default function Hero() {
               />
             </div>
           </div>
-          <div className='flex items-center gap-[14px]'>
+          <div className='flex items-center gap-[14px] mt-[125px]'>
             <div>
               <Image
                 src='/profiles/1.png'

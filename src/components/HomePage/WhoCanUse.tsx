@@ -12,9 +12,9 @@ export default function WhoCanUse() {
         backgroundRepeat: 'no-repeat, no-repeat',
         backgroundSize: 'cover, cover',
       }}
-      className='pt-20 pb-[78px] space-y-12 rounded-b-[32px]'
+      className='pt-[55px] pb-[49.25px] space-y-12 rounded-b-[32px]'
     >
-      <section className='flex container mx-auto gap-[29px]'>
+      <section className='container flex mx-auto gap-[29px] items-center'>
         <header className='max-[479px]'>
           <h2 className='text-[64px] leading-[68px] font-medium text-IFTextBold'>
             Who can use integraflow

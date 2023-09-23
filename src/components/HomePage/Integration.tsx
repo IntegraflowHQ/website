@@ -51,7 +51,7 @@ const integrationIconRowTwo = [
 export default function Integration() {
   return (
     <section
-      className='bg-IFBlack pt-20 pb-[54px]'
+      className='bg-IFBlack pt-20 pb-[54px] rounded-t-[32px]'
       style={{
         backgroundImage:
           'url(/images/survey-types/bg-dots.svg), radial-gradient(rgba(12, 79, 37, 1), rgba(5, 5, 5, 1))',

@@ -53,7 +53,7 @@ const navLinks = [
 
 export default function Footer() {
   return (
-    <footer className='bg-IFBlack pt-[60px] space-y-5 p-5'>
+    <footer className='bg-IFBlack pt-[60px] space-y-5 p-5 rounded-b-[32px]'>
       <section className='container mx-auto flex justify-between'>
         <header className='space-y-3'>
           <h2 className='text-IFTextLight text-2xl leading-normal font-semibold'>

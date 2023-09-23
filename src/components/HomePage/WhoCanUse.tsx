@@ -12,7 +12,7 @@ export default function WhoCanUse() {
         backgroundRepeat: 'no-repeat, no-repeat',
         backgroundSize: 'cover, cover',
       }}
-      className='pt-20 pb-[78px] space-y-12'
+      className='pt-20 pb-[78px] space-y-12 rounded-b-[32px]'
     >
       <section className='flex container mx-auto gap-[29px]'>
         <header className='max-[479px]'>

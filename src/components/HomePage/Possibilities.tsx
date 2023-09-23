@@ -28,7 +28,7 @@ const CurlyBracket = () => (
 export default function Possibilities() {
   return (
     <section
-      className='bg-IFBlack py-16'
+      className='bg-IFBlack py-16 rounded-t-3xl'
       style={{
         backgroundImage: 'url(/bg/use-cases.png)',
         backgroundPosition: 'center right',

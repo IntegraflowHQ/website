@@ -10,7 +10,7 @@ import WhoCanUse from '@/components/HomePage/WhoCanUse';
 
 export default function Home() {
   return (
-    <main>
+    <main className='space-y-2 px-[25px] pb-2'>
       <Hero />
       <Possibilities />
       <SurveryTypes />

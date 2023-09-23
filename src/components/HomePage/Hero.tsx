@@ -5,7 +5,7 @@ import Button from '../Button';
 export default function Hero() {
   return (
     <div
-      className='w-full h-[calc(100vh-80px)]'
+      className='w-full h-[calc(100vh-80px)] rounded-b-3xl'
       style={{
         backgroundImage: "url(/bg-dots.svg), url('/bg-line.svg'), url(/bg.svg)",
         backgroundRepeat: 'no-repeat, no-repeat ,no-repeat',
@@ -16,7 +16,7 @@ export default function Hero() {
       }}
     >
       <div
-        className='w-full h-full'
+        className='w-full h-full rounded-b-3xl'
         style={{
           backgroundImage:
             'linear-gradient(140deg, rgba(28, 15, 89, 1) 40%, rgba(0, 107, 41, 1))',

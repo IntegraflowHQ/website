@@ -39,7 +39,7 @@ const features = [
 export default function Data() {
   return (
     <div
-      className='bg-IFBlack py-20 px-5'
+      className='bg-IFBlack py-20 px-5 rounded-t-[32px]'
       style={{
         backgroundImage: 'url(/images/data/bg.png)',
         backgroundPosition: 'bottom right',

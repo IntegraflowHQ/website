@@ -14,7 +14,7 @@ export default function Showcase() {
         backgroundRepeat: 'no-repeat, no-repeat',
         backgroundColor: '#050505',
       }}
-      className='pt-20 pb-[78px] space-y-12'
+      className='pt-20 pb-[78px] space-y-12 rounded-t-[32px]'
     >
       <header className='container flex gap-10 mx-auto'>
         <h2 className='text-IFTextBold text-[44px] leading-[52px] font-medium'>

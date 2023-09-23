@@ -8,7 +8,7 @@ export default function SurveryTypes() {
   return (
     <div
       id='survey-types'
-      className='pt-12 pb-20 min-h-screen'
+      className='pt-12 pb-20 min-h-screen rounded-b-[32px]'
       style={{
         backgroundImage:
           'url(/images/survey-types/blue.svg), url(/images/survey-types/green.svg), url(/images/survey-types/bg-dots.svg)',

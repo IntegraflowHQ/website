@@ -57,7 +57,7 @@ export default function FAQ() {
         backgroundSize: 'auto 1092px, auto 1092px, cover',
         backgroundColor: '#0F0F0F',
       }}
-      className='pt-20 px-5 pb-5'
+      className='pt-20 px-5 pb-5 rounded-b-[32px]'
       id='faq'
     >
       <section className='flex justify-between w-full max-w-[1029px] mx-auto'>

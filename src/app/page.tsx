@@ -1,5 +1,6 @@
 import Data from '@/components/HomePage/Data';
 import FAQ from '@/components/HomePage/FAQ';
+import Footer from '@/components/HomePage/Footer';
 import Hero from '@/components/HomePage/Hero';
 import Integration from '@/components/HomePage/Integration';
 import Possibilities from '@/components/HomePage/Possibilities';
@@ -18,6 +19,7 @@ export default function Home() {
       <Data />
       <FAQ />
       <Integration />
+      <Footer />
     </main>
   );
 }

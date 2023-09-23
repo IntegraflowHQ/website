@@ -1,3 +1,4 @@
+import Button from '../Button';
 import {
   Airtable,
   Bitbucket,
@@ -73,15 +74,14 @@ export default function Integration() {
           </div>
         </div>
 
-        <header className='w-full max-w-[839px] space-y-4'>
+        <header className='w-full max-w-[839px] flex flex-col gap-4 items-center'>
           <h2 className='text-white text-[52px] font-semibold leading-normal text-center'>
             Seamlessly Connect Integraflow with Your Workflow
           </h2>
-          <p className='w-full max-w-[532px] text-center text-IFText200 mx-auto'>
-            Monitor your customer journey and gather valuable market insights
-            using a single survey question: "How likely are you to recommend our
-            company, product, or service to others
+          <p className='w-full max-w-[532px] text-center text-IFText200'>
+            Track your ever-evolving customer-user journey in one space.
           </p>
+          <Button variant='green' text='Join waitlist' className='w-64' />
         </header>
       </section>
     </section>

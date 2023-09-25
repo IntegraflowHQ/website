@@ -95,11 +95,11 @@ export default function Hero() {
                 alt='user'
               />
             </div>
-            <Link href='/' className='text-lg text-IFText w-[316px]'>
+            <p className='text-lg text-IFText w-[316px]'>
               Join over <span className='text-white'>(100+)</span> other{' '}
               <span className='text-white'>businesses</span> today in the
               waitlist)
-            </Link>
+            </p>
           </div>
         </div>
       </div>

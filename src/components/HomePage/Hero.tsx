@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Button from '../Button';
+import WaitlistModal from './WaitlistModal';
 
 export default function Hero() {
   return (
@@ -8,7 +9,7 @@ export default function Hero() {
       className='w-full rounded-b-3xl'
       style={{
         backgroundImage: "url(/bg-dots.svg), url('/bg-line.svg'), url(/bg.svg)",
-        backgroundRepeat: 'no-repeat, no-repeat ,no-repeat',
+        backgroundRepeat: 'no-repeat, no-repeat, no-repeat',
         backgroundPosition: 'center, center, center',
         backgroundSize: 'cover, cover, cover',
         backgroundColor: 'lightgrey',
@@ -57,7 +58,12 @@ export default function Hero() {
               </p>
             </header>
             <div className='flex justify-center space-x-2 pt-8'>
-              <Button text='Get early access today' className='w-[240px]' />
+              <WaitlistModal
+                buttonProps={{
+                  text: 'Get early access today',
+                  className: 'w-[240px]',
+                }}
+              />
               <Button
                 text='Check demo'
                 className='w-[240px]'

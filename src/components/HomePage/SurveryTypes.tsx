@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Button from '../Button';
-import GlassContainer from './GlassContainer';
-import Pill from './Pill';
-import SurveyDetails from './SurveyDetails';
+import GlassContainer from './partials/GlassContainer';
+import Pill from './partials/Pill';
+import SurveyDetails from './partials/SurveyDetails';
 
 export default function SurveryTypes() {
   return (

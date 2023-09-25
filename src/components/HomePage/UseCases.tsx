@@ -1,7 +1,7 @@
-import Button from '../Button';
-import Pill from './Pill';
+import WaitlistModal from './WaitlistModal';
+import Pill from './partials/Pill';
 
-export default function WhoCanUse() {
+export default function UseCases() {
   return (
     <div
       id='use-cases'
@@ -22,7 +22,7 @@ export default function WhoCanUse() {
           <p className='text-IFText text-base font-normal pt-4 pb-8'>
             We've got you covered.
           </p>
-          <Button text='Get early access today' />
+          <WaitlistModal buttonProps={{ text: 'Get early access today' }} />
         </header>
 
         <div>

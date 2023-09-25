@@ -1,4 +1,3 @@
-import Button from '../Button';
 import {
   Airtable,
   Bitbucket,
@@ -21,6 +20,7 @@ import {
   Zapier,
   Zendesk,
 } from '../icons';
+import WaitlistModal from './WaitlistModal';
 
 const integrationIconRowOne = [
   Slack,
@@ -81,7 +81,13 @@ export default function Integration() {
           <p className='w-full max-w-[532px] text-center text-IFText200'>
             Track your ever-evolving customer-user journey in one space.
           </p>
-          <Button variant='green' text='Join waitlist' className='w-64' />
+          <WaitlistModal
+            buttonProps={{
+              variant: 'green',
+              text: 'Join waitlist',
+              className: 'w-64',
+            }}
+          />
         </header>
       </section>
     </section>

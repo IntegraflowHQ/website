@@ -2,8 +2,8 @@
 import AnalysisImage from '@/assets/images/analysis.png';
 import * as Tabs from '@radix-ui/react-tabs';
 import Image from 'next/image';
-import Button from '../Button';
-import Pill from './Pill';
+import WaitlistModal from './WaitlistModal';
+import Pill from './partials/Pill';
 
 const features = [
   {
@@ -88,7 +88,12 @@ export default function Data() {
                     {feature.description}
                   </p>
                 </header>
-                <Button text='Get early access today' className='mt-8' />
+                <WaitlistModal
+                  buttonProps={{
+                    text: 'Get early access today',
+                    className: 'mt-8',
+                  }}
+                />
               </div>
               <Image
                 src={feature.image.src}

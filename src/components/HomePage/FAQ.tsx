@@ -1,7 +1,7 @@
 'use client';
 import * as Accordion from '@radix-ui/react-accordion';
 import Link from 'next/link';
-import Button from '../Button';
+import WaitlistModal from './WaitlistModal';
 
 const faqs = [
   {
@@ -76,7 +76,9 @@ export default function FAQ() {
               FEEL FREE TO CHAT WITH US
             </p>
           </header>
-          <Button text='Join waitlist' className='mt-[27px]' />
+          <WaitlistModal
+            buttonProps={{ text: 'Join waitlist', className: 'mt-[27px]' }}
+          />
         </section>
 
         <Accordion.Root

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Button from '../Button';
+import WaitlistModal from './WaitlistModal';
 
 const useCases = [
   {
@@ -25,7 +25,7 @@ const CurlyBracket = () => (
   </strong>
 );
 
-export default function Possibilities() {
+export default function ProductBenefits() {
   return (
     <section
       className='bg-IFBlack py-16 rounded-t-3xl'
@@ -34,6 +34,7 @@ export default function Possibilities() {
         backgroundPosition: 'center right',
         backgroundRepeat: 'no-repeat',
       }}
+      id='benefit'
     >
       <section className='flex gap-10 max-w-[950px] mx-auto'>
         <section className='max-w-[419px]'>
@@ -64,7 +65,7 @@ export default function Possibilities() {
           </div>
 
           <div className='pt-8 pl-[60px]'>
-            <Button text='Get early access today' />
+            <WaitlistModal buttonProps={{ text: 'Get early access today' }} />
           </div>
         </section>
 

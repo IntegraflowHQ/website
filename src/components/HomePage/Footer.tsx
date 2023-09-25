@@ -77,7 +77,7 @@ export default function Footer() {
                 <li key={index}>
                   <Link
                     href={link.href}
-                    className='text-IFText text-sm leading-6 font-normal hover:text-white'
+                    className='text-IFText text-sm font-normal'
                   >
                     {link.name}
                   </Link>

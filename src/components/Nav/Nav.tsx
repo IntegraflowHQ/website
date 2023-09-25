@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Button from '../Button';
+import WaitlistModal from '../HomePage/WaitlistModal';
 
 const links = [
   {
-    name: 'Benefits',
-    href: '/#benefits',
+    name: 'Benefit',
+    href: '/#benefit',
   },
   {
     name: 'Survery types',
@@ -17,7 +17,7 @@ const links = [
   },
   {
     name: 'Blog',
-    href: '/',
+    href: '/#',
   },
   {
     name: 'FAQ',
@@ -38,7 +38,7 @@ export default function Nav() {
             <li key={link.name}>
               <Link
                 href={link.href}
-                className='text-primary text-sm font-medium hover:underline'
+                className='text-primary text-sm font-medium'
               >
                 {link.name}
               </Link>
@@ -46,7 +46,12 @@ export default function Nav() {
           ))}
         </ul>
       </div>
-      <Button text='Join waitlist' className='py-[16px] text-sm font-normal' />
+      <WaitlistModal
+        buttonProps={{
+          text: 'Join waitlist',
+          className: 'py-[16px] text-sm font-normal',
+        }}
+      />
     </div>
   );
 }

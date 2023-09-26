@@ -36,7 +36,7 @@ export default function ProductBenefits() {
       }}
       id='benefit'
     >
-      <section className='container flex gap-10 mx-auto'>
+      <section className='container flex justify-between mx-auto'>
         <section className='max-w-[419px]'>
           <header className='space-y-2'>
             <h2 className='text-IFTextBold text-[44px] leading-[52px] font-medium'>
@@ -69,13 +69,13 @@ export default function ProductBenefits() {
           </div>
         </section>
 
-        <section className='flex-1'>
+        <section>
           <Image
-            src='/bg/user.png'
+            src='/images/product-benefits/user.svg'
             alt='Use cases'
-            width={800}
-            height={533}
-            className='block object-cover object-right w-full h-full'
+            width={499}
+            height={704}
+            className='block object-cover object-right'
           />
         </section>
       </section>

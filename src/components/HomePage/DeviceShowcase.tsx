@@ -39,11 +39,11 @@ export default function DeviceShowcase() {
           />
           <div className='flex justify-end'>
             <Image
-              src={'/images/showcase/mobile.png'}
+              src={'/images/showcase/mobile.jpg'}
               width={300}
               height={384}
               alt='Mobile'
-              className='rounded-t-[48px]'
+              className='rounded-t-[50px]'
             />
           </div>
         </GlassContainer>

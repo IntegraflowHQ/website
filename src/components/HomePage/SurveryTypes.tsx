@@ -22,7 +22,7 @@ export default function SurveryTypes() {
         <div className='flex items-center gap-[71px] mx-auto w-max'>
           <GlassContainer className='pt-[26px] pb-[25px] pl-[26px] space-y-[41px] rounded-t-[20px]'>
             <Image
-              src={'/images/survey-types/nps.png'}
+              src={'/images/survey-types/nps.svg'}
               width={494}
               height={209}
               alt='NPS'
@@ -41,7 +41,7 @@ export default function SurveryTypes() {
               description='Collect user contact details for follow-ups, inquiries, or subscription sign-ups.'
             />
             <Image
-              src={'/images/survey-types/contact-form.png'}
+              src={'/images/survey-types/contact-form.svg'}
               height={288}
               width={300}
               alt='Contact form'
@@ -67,7 +67,7 @@ export default function SurveryTypes() {
 
           <GlassContainer className='space-y-6 px-6 py-8 max-w-[354px] rounded-t-[20px]'>
             <Image
-              src={'/images/survey-types/rating.png'}
+              src={'/images/survey-types/rating.svg'}
               width={306}
               height={239}
               alt='Contact form'
@@ -89,7 +89,7 @@ export default function SurveryTypes() {
               className='max-w-[397px]'
             />
             <Image
-              src={'/images/survey-types/matrix.png'}
+              src={'/images/survey-types/matrix.svg'}
               width={474}
               height={239}
               alt='Contact form'
@@ -103,7 +103,7 @@ export default function SurveryTypes() {
               description='Collect accurate answers using single-choice questions. Ideal for polls, quizzes, and easy decision-making.'
             />
             <Image
-              src={'/images/survey-types/single-choice.png'}
+              src={'/images/survey-types/single-choice.svg'}
               width={297}
               height={300}
               alt='Contact form'

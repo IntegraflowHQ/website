@@ -5,23 +5,23 @@ import WaitlistModal from '../HomePage/WaitlistModal';
 const links = [
   {
     name: 'Benefit',
-    href: '/#benefit',
+    href: '#benefit',
   },
   {
     name: 'Survery types',
-    href: '/#survey-types',
+    href: '#survey-types',
   },
   {
     name: 'Use Cases',
-    href: '/#use-cases',
+    href: '#use-cases',
   },
   {
     name: 'Blog',
-    href: '/#',
+    href: '#',
   },
   {
     name: 'FAQ',
-    href: '/#faq',
+    href: '#faq',
   },
 ];
 

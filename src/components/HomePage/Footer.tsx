@@ -6,47 +6,47 @@ const navLinks = [
   [
     {
       name: 'About',
-      href: '/#',
+      href: '#',
     },
     {
       name: 'Survey Types',
-      href: '/#survey-types',
+      href: '#survey-types',
     },
     {
       name: 'Blog',
-      href: '/#',
+      href: '#',
     },
     {
       name: 'Check Demo',
-      href: '/#',
+      href: '#',
     },
   ],
   [
     {
       name: 'Terms of Service',
-      href: '/#',
+      href: '#',
     },
     {
       name: 'Privacy Policy',
-      href: '/#',
+      href: '#',
     },
     {
       name: 'Contact Us',
-      href: '/#',
+      href: '#',
     },
   ],
   [
     {
       name: 'Twitter',
-      href: '/#',
+      href: '#',
     },
     {
       name: 'LinkedIn',
-      href: '/#',
+      href: '#',
     },
     {
       name: 'Instagram',
-      href: '/#',
+      href: '#',
     },
   ],
 ];

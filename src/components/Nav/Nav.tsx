@@ -36,12 +36,9 @@ export default function Nav() {
         <ul className='flex space-x-8'>
           {links.map((link) => (
             <li key={link.name}>
-              <Link
-                href={link.href}
-                className='text-sm font-medium text-primary'
-              >
+              <a href={link.href} className='text-sm font-medium text-primary'>
                 {link.name}
-              </Link>
+              </a>
             </li>
           ))}
         </ul>

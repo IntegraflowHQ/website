@@ -75,12 +75,12 @@ export default function Footer() {
             >
               {links.map((link, index) => (
                 <li key={index}>
-                  <Link
+                  <a
                     href={link.href}
                     className='text-IFText text-sm font-normal'
                   >
                     {link.name}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>

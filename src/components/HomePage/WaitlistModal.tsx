@@ -108,7 +108,7 @@ export default function WaitlistModal({ buttonProps }: Props) {
               <div className='flex flex-col gap-[35px] min-w-[260px] max-w-[390px]'>
                 <header className='space-y-2 text-center'>
                   <Dialog.Title className='text-IFText300 text-[32px] font-semibold leading[48px]'>
-                    Join over 50+ Business TODAY in our waitlist
+                    Join over 50+ business today in our waitlist
                   </Dialog.Title>
                   <Dialog.Description className='text-base font-normal leading-normal text-IFText'>
                     Redefine customer experience with organic feedback and
@@ -131,9 +131,16 @@ export default function WaitlistModal({ buttonProps }: Props) {
             </>
           ) : (
             <div className='flex flex-col items-center gap-2 w-max'>
-              <Dialog.Title className='text-IFText300 text-[32px] font-semibold leading[48px] text-center max-w-[300px]'>
-                Thank you for joining our waitlist
-              </Dialog.Title>
+              <header className='flex flex-col items-center gap-2 text-center'>
+                <Dialog.Title className='text-IFText300 text-[32px] font-semibold leading[48px] max-w-[320px]'>
+                  Thank you for joining our waitlist
+                </Dialog.Title>
+                <Dialog.Description className='text-base font-normal leading-normal text-IFText max-w-[420px]'>
+                  We're here to help you make the most of Integraflow. Feel free
+                  to reach out to us
+                </Dialog.Description>
+              </header>
+
               <div className='grid grid-cols-2 gap-3 p-8'>
                 {socialLinks.map(({ name, icon: Icon, url }) => (
                   <Link

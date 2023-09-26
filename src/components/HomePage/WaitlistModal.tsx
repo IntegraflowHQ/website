@@ -61,6 +61,7 @@ export default function WaitlistModal({ buttonProps }: Props) {
       }
     });
   };
+
   return (
     <Dialog.Root
       onOpenChange={() => {

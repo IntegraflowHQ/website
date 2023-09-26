@@ -19,7 +19,7 @@ export default function UseCases() {
           <h2 className='text-[64px] leading-[68px] font-medium text-IFTextBold'>
             Who can use integraflow
           </h2>
-          <p className='text-IFText text-base font-normal pt-4 pb-8'>
+          <p className='pt-4 pb-8 text-base font-normal text-IFText'>
             We've got you covered.
           </p>
           <WaitlistModal buttonProps={{ text: 'Get early access today' }} />

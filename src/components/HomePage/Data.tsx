@@ -46,7 +46,7 @@ export default function Data() {
         backgroundRepeat: 'no-repeat',
       }}
     >
-      <section className='mx-auto w-full max-w-[1029px] space-y-16'>
+      <section className='container w-full mx-auto space-y-16'>
         <header className='space-y-[17px] max-w-[443px]'>
           <Pill text='Data is key' />
           <h2 className='text-IFTextBold text-[44px] leading-[52px] font-medium'>
@@ -81,10 +81,10 @@ export default function Data() {
             >
               <div className='pt-[7px]'>
                 <header className='space-y-4 max-w-[531px]'>
-                  <h3 className='text-IFTextLight text-2xl font-semibold'>
+                  <h3 className='text-2xl font-semibold text-IFTextLight'>
                     {feature.title}
                   </h3>
-                  <p className='text-IFText text-base font-normal'>
+                  <p className='text-base font-normal text-IFText'>
                     {feature.description}
                   </p>
                 </header>

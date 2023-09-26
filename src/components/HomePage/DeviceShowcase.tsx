@@ -21,7 +21,7 @@ export default function DeviceShowcase() {
           Automated surveys throughout the user journey
         </h2>
         <div className='space-y-8'>
-          <p className='text-IFText text-lg font-normal'>
+          <p className='text-lg font-normal text-IFText'>
             To understand user behavior, fulfill (your) customer-user core
             market needs and continually increase the overall business output
           </p>
@@ -29,7 +29,7 @@ export default function DeviceShowcase() {
         </div>
       </header>
 
-      <div className='flex gap-5 mx-auto w-max items-center'>
+      <div className='flex items-center gap-5 mx-auto w-max'>
         <GlassContainer className='pt-[33px] pl-[33px] pr-[64.51px] rounded-t-3xl w-[414px]'>
           <Pill text='Mobile' />
           <SurveyDetails
@@ -63,7 +63,7 @@ export default function DeviceShowcase() {
               width={593}
               height={466}
               alt='Desktop'
-              className='block rounded-bl-3xl w-full h-full'
+              className='block w-full h-full rounded-bl-3xl'
             />
           </div>
         </GlassContainer>

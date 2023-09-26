@@ -15,7 +15,7 @@ const useCases = [
   {
     title: 'Location is no barrier',
     description:
-      'Our platform seamlessly connects with a range of third-party apps, enhancing your productivity',
+      'Our platform seamlessly connects with a range of third-party apps, enhancing your productivity.',
   },
 ];
 
@@ -28,7 +28,7 @@ const CurlyBracket = () => (
 export default function ProductBenefits() {
   return (
     <section
-      className='bg-IFBlack py-16 rounded-t-3xl'
+      className='py-16 bg-IFBlack rounded-t-3xl'
       style={{
         backgroundImage: 'url(/bg/use-cases.png)',
         backgroundPosition: 'center right',
@@ -36,13 +36,13 @@ export default function ProductBenefits() {
       }}
       id='benefit'
     >
-      <section className='flex gap-10 max-w-[950px] mx-auto'>
+      <section className='container flex gap-10 mx-auto'>
         <section className='max-w-[419px]'>
           <header className='space-y-2'>
             <h2 className='text-IFTextBold text-[44px] leading-[52px] font-medium'>
               See What You can do with Integraflow
             </h2>
-            <p className='text-IFText text-base font-normal pb-5'>
+            <p className='pb-5 text-base font-normal text-IFText'>
               Automate. Simplify. Track Your Ever-Changing Customer’s Journey in
               One Space
             </p>
@@ -50,13 +50,13 @@ export default function ProductBenefits() {
 
           <div>
             {useCases.map((useCase, index) => (
-              <section key={index} className='flex gap-2 items-center'>
+              <section key={index} className='flex items-center gap-2'>
                 <CurlyBracket />
                 <div>
-                  <h3 className='text-white text-lg font-semibold'>
+                  <h3 className='text-lg font-semibold text-white'>
                     {useCase.title}
                   </h3>
-                  <p className='text-IFText text-base font-normal'>
+                  <p className='text-base font-normal text-IFText'>
                     {useCase.description}
                   </p>
                 </div>
@@ -75,7 +75,7 @@ export default function ProductBenefits() {
             alt='Use cases'
             width={800}
             height={533}
-            className='block h-full w-full object-cover object-right'
+            className='block object-cover object-right w-full h-full'
           />
         </section>
       </section>

@@ -2,6 +2,7 @@
 import * as Dialog from '@radix-ui/react-dialog';
 import Link from 'next/link';
 import { FormEvent, useState } from 'react';
+import toast, { Toaster } from 'react-hot-toast';
 import Button, { ButtonProps } from '../Button';
 import { Discord2, Instagram, LinkedIn, Twitter } from '../icons';
 
@@ -28,6 +29,8 @@ const socialLinks = [
   },
 ];
 
+const waitlistId = process.env.NEXT_PUBLIC_WAITLIST_ID;
+
 interface Props {
   buttonProps: ButtonProps;
 }
@@ -40,7 +43,23 @@ export default function WaitlistModal({ buttonProps }: Props) {
 
   const handlesubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setJoined(true);
+    fetch('https://api.getwaitlist.com/api/v1/waiter', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        email: 'hjkjk',
+        waitlist_id: waitlistId,
+        referral_link: document.location.href,
+      }),
+    }).then((res) => {
+      if (res.ok) {
+        setJoined(true);
+      } else {
+        toast.error('Something went wrong');
+      }
+    });
   };
   return (
     <Dialog.Root
@@ -85,12 +104,12 @@ export default function WaitlistModal({ buttonProps }: Props) {
                 </Dialog.Close>
               </div>
 
-              <div className='flex flex-col gap-[35px] max-w-[390px]'>
+              <div className='flex flex-col gap-[35px] min-w-[260px] max-w-[390px]'>
                 <header className='space-y-2 text-center'>
                   <Dialog.Title className='text-IFText300 text-[32px] font-semibold leading[48px]'>
                     Join over 50+ Business TODAY in our waitlist
                   </Dialog.Title>
-                  <Dialog.Description className='text-base leading-normal font-normal text-IFText'>
+                  <Dialog.Description className='text-base font-normal leading-normal text-IFText'>
                     Redefine customer experience with organic feedback and
                     behavioral data in real-time.
                   </Dialog.Description>
@@ -100,6 +119,7 @@ export default function WaitlistModal({ buttonProps }: Props) {
                   <input
                     type='email'
                     placeholder='Enter your email'
+                    required
                     className='p-4 rounded-lg text-base font-normal bg-[#3C2E62] text-[#AC8DFE]'
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
@@ -109,7 +129,7 @@ export default function WaitlistModal({ buttonProps }: Props) {
               </div>
             </>
           ) : (
-            <div className='flex flex-col gap-2 items-center w-max'>
+            <div className='flex flex-col items-center gap-2 w-max'>
               <Dialog.Title className='text-IFText300 text-[32px] font-semibold leading[48px] text-center max-w-[300px]'>
                 Thank you for joining our waitlist
               </Dialog.Title>
@@ -130,6 +150,7 @@ export default function WaitlistModal({ buttonProps }: Props) {
               </div>
             </div>
           )}
+          <Toaster />
         </Dialog.Content>
       </Dialog.Portal>
     </Dialog.Root>

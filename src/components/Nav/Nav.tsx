@@ -27,7 +27,7 @@ const links = [
 
 export default function Nav() {
   return (
-    <div className='flex items-center justify-between w-full px-10 py-4 border-b border-black'>
+    <nav className='sticky top-0 z-50 flex items-center justify-between w-full px-10 py-4 bg-white border-b border-black'>
       <Link href='/'>
         <Image src='/logo.svg' width={133} height={29} alt='Integraflow' />
       </Link>
@@ -49,6 +49,6 @@ export default function Nav() {
           className: 'py-[16px] text-sm font-normal',
         }}
       />
-    </div>
+    </nav>
   );
 }

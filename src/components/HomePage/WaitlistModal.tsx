@@ -49,7 +49,7 @@ export default function WaitlistModal({ buttonProps }: Props) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        email: 'hjkjk',
+        email,
         waitlist_id: waitlistId,
         referral_link: document.location.href,
       }),

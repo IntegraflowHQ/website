@@ -60,7 +60,7 @@ export default function Footer() {
             Integraflow
           </h2>
           <p className='text-IFText text-sm leading-6 font-normal max-w-[239px]'>
-            We're here to help you make the most of Integraflow.
+            We&apos;re here to help you make the most of Integraflow.
           </p>
           <Button variant='tertiary' text='Feel free to chat with us.' />
         </header>

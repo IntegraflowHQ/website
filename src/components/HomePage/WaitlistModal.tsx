@@ -136,8 +136,8 @@ export default function WaitlistModal({ buttonProps }: Props) {
                   Thank you for joining our waitlist
                 </Dialog.Title>
                 <Dialog.Description className='text-base font-normal leading-normal text-IFText max-w-[420px]'>
-                  We're here to help you make the most of Integraflow. Feel free
-                  to reach out to us
+                  We&apos;re here to help you make the most of Integraflow. Feel
+                  free to reach out to us
                 </Dialog.Description>
               </header>
 

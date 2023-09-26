@@ -60,7 +60,7 @@ export default function SurveryTypes() {
               Each question is unique, and every response matters. We offer a
               wide range of response options for all your survey needs, be it
               customer feedback, market research, or opinions.{' '}
-              <span className='text-white'>We've got you covered.</span>
+              <span className='text-white'>We&apos;ve got you covered.</span>
             </p>
             <Button text='Check demo' />
           </section>

@@ -54,9 +54,9 @@ const navLinks = [
 export default function Footer() {
   return (
     <footer className='bg-IFBlack pt-[60px] space-y-5 p-5 rounded-b-[32px]'>
-      <section className='container mx-auto flex justify-between'>
+      <section className='container flex justify-between mx-auto'>
         <header className='space-y-3'>
-          <h2 className='text-IFTextLight text-2xl leading-normal font-semibold'>
+          <h2 className='text-2xl font-semibold leading-normal text-IFTextLight'>
             Integraflow
           </h2>
           <p className='text-IFText text-sm leading-6 font-normal max-w-[239px]'>
@@ -64,7 +64,7 @@ export default function Footer() {
           </p>
           <Button variant='tertiary' text='Feel free to chat with us.' />
         </header>
-        <nav className='grid gap-3 grid-cols-3 grid-rows-2'>
+        <nav className='grid grid-cols-3 grid-rows-2 gap-3'>
           {navLinks.map((links, index) => (
             <ul
               key={index}
@@ -77,7 +77,7 @@ export default function Footer() {
                 <li key={index}>
                   <a
                     href={link.href}
-                    className='text-IFText text-sm font-normal'
+                    className='text-sm font-normal text-IFText'
                   >
                     {link.name}
                   </a>
@@ -85,19 +85,19 @@ export default function Footer() {
               ))}
             </ul>
           ))}
-          <span className='text-IFText text-sm col-span-2'>
+          <span className='col-span-2 text-sm text-IFText'>
             We’re open source -{' '}
             <Link
               href={'https://github.com/IntegraflowHQ'}
               target='_blank'
-              className='text-IFGreen underline'
+              className='underline text-IFGreen'
             >
               Star us on Github
             </Link>
           </span>
         </nav>
       </section>
-      <p className='text-IFText text-sm leading-5 text-center'>
+      <p className='text-sm leading-5 text-center text-IFText'>
         @ 2023 integraflow. All rights reserved.
       </p>
     </footer>

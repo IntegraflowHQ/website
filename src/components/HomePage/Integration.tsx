@@ -60,8 +60,8 @@ export default function Integration() {
         backgroundSize: 'cover, cover',
       }}
     >
-      <section className='w-max mx-auto space-y-7'>
-        <div className='w-full max-w-max mx-auto space-y-4'>
+      <section className='mx-auto w-max space-y-7'>
+        <div className='w-full mx-auto space-y-4 max-w-max'>
           <div className='flex gap-[6.11px] w-full max-w-max'>
             {integrationIconRowOne.map((Icon, index) => (
               <Icon key={index} />

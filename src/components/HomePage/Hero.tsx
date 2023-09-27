@@ -34,12 +34,12 @@ export default function Hero() {
                   '0px 2px 4px 0px rgba(248, 248, 248, 0.16) inset, -2px 0px 4px 0px rgba(183, 183, 183, 0.25) inset',
               }}
             >
-              <p className='text-white text-sm font-normal'>
+              <p className='text-sm font-normal text-white'>
                 We are open souce -{' '}
                 <Link
                   href={'https://github.com/IntegraflowHQ'}
                   target='_blank'
-                  className='text-IFGreen underline'
+                  className='underline text-IFGreen'
                 >
                   Star us on Github
                 </Link>
@@ -57,7 +57,7 @@ export default function Hero() {
                 the go.
               </p>
             </header>
-            <div className='flex justify-center space-x-2 pt-8'>
+            <div className='flex justify-center pt-8 space-x-2'>
               <WaitlistModal
                 buttonProps={{
                   text: 'Get early access today',
@@ -75,21 +75,21 @@ export default function Hero() {
             <div>
               <Image
                 src='/profiles/1.png'
-                className='inline rounded-full border-IFPurple border'
+                className='inline border rounded-full border-IFPurple'
                 width={44}
                 height={44}
                 alt='user'
               />
               <Image
                 src='/profiles/2.png'
-                className='inline rounded-full border-IFPurple border -ml-4'
+                className='inline -ml-4 border rounded-full border-IFPurple'
                 width={44}
                 height={44}
                 alt='user'
               />
               <Image
                 src='/profiles/3.png'
-                className='inline rounded-full border-IFPurple border -ml-4'
+                className='inline -ml-4 border rounded-full border-IFPurple'
                 width={44}
                 height={44}
                 alt='user'

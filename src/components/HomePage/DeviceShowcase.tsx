@@ -16,7 +16,7 @@ export default function DeviceShowcase() {
       }}
       className='pt-20 pb-[78px] space-y-12 rounded-t-[32px]'
     >
-      <header className='container flex gap-10 mx-auto'>
+      <header className='container flex gap-10 mx-auto xl:px-20'>
         <h2 className='text-IFTextBold text-[44px] leading-[52px] font-medium'>
           Automated surveys throughout the user journey
         </h2>

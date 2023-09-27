@@ -14,7 +14,7 @@ export default function UseCases() {
       }}
       className='pt-[55px] pb-[49.25px] space-y-12 rounded-b-[32px]'
     >
-      <section className='container flex mx-auto gap-[29px] items-center'>
+      <section className='container flex mx-auto gap-[29px] items-center xl:px-20'>
         <header className='max-[479px]'>
           <h2 className='text-[64px] leading-[68px] font-medium text-IFTextBold'>
             Who can use integraflow

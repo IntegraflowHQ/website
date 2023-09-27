@@ -36,7 +36,7 @@ export default function ProductBenefits() {
       }}
       id='benefit'
     >
-      <section className='container flex justify-between mx-auto'>
+      <section className='container flex justify-between mx-auto xl:px-20'>
         <section className='max-w-[419px]'>
           <header className='space-y-2'>
             <h2 className='text-IFTextBold text-[44px] leading-[52px] font-medium'>

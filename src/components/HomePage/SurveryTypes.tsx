@@ -18,7 +18,7 @@ export default function SurveryTypes() {
         backgroundColor: '#0F0F0F',
       }}
     >
-      <div className='container mx-auto'>
+      <div className='container mx-auto xl:px-20'>
         <div className='flex items-center gap-[71px] mx-auto w-max'>
           <GlassContainer className='pt-[26px] pb-[25px] pl-[26px] space-y-[41px] rounded-t-[20px]'>
             <Image

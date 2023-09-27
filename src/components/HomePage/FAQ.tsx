@@ -71,7 +71,7 @@ export default function FAQ() {
       className='pt-20 px-5 pb-5 rounded-b-[32px]'
       id='faq'
     >
-      <section className='container flex justify-between mx-auto'>
+      <section className='container flex justify-between mx-auto xl:px-20'>
         <section>
           <header className='max-w-[467px] space-y-5'>
             <h2 className='text-5xl font-medium leading-normal text-IFGreen'>

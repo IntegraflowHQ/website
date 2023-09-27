@@ -46,7 +46,7 @@ export default function Data() {
         backgroundRepeat: 'no-repeat',
       }}
     >
-      <section className='container w-full mx-auto space-y-16'>
+      <section className='container w-full mx-auto space-y-16 xl:px-20'>
         <header className='space-y-[17px] max-w-[443px]'>
           <Pill text='Data is key' />
           <h2 className='text-IFTextBold text-[44px] leading-[52px] font-medium'>

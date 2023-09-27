@@ -54,7 +54,7 @@ const navLinks = [
 export default function Footer() {
   return (
     <footer className='bg-IFBlack pt-[60px] space-y-5 p-5 rounded-b-[32px]'>
-      <section className='container flex justify-between mx-auto'>
+      <section className='container flex justify-between mx-auto xl:px-20'>
         <header className='space-y-3'>
           <h2 className='text-2xl font-semibold leading-normal text-IFTextLight'>
             Integraflow

@@ -74,14 +74,14 @@ export default function WaitlistModal({ buttonProps }: Props) {
       </Dialog.Trigger>
       <Dialog.Portal>
         <Dialog.Overlay
-          className='fixed inset-0'
+          className='fixed inset-0 z-20'
           style={{
             backgroundImage: `linear-gradient(140deg, rgba(28, 15, 89, ${opacity}) 50%, rgba(0, 107, 41, ${opacity}))`,
             backgroundColor: `rgba(15, 15, 15, ${opacity})`,
             backdropFilter: 'blur(6px)',
           }}
         />
-        <Dialog.Content className='fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]  bg-IFBlack rounded-t-3xl p-12'>
+        <Dialog.Content className='fixed z-30 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]  bg-IFBlack rounded-t-3xl p-12'>
           {!joined ? (
             <>
               <div className='flex justify-end mb-8'>

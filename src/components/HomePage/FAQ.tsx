@@ -105,11 +105,12 @@ export default function FAQ() {
               className='p-3 overflow-hidden border-b-[0.5px] border-[#868686]'
             >
               <Accordion.Header asChild>
-                <header className='flex items-center justify-between'>
-                  <h3 className='text-white text-lg font-medium max-w-[417px]'>
+                <Accordion.Trigger className='flex items-center justify-between w-full'>
+                  <h3 className='text-white text-left text-lg font-medium max-w-[417px]'>
                     {faq.question}
                   </h3>
-                  <Accordion.Trigger>
+
+                  <div>
                     <svg
                       width='24'
                       height='24'
@@ -132,8 +133,8 @@ export default function FAQ() {
                         strokeLinejoin='round'
                       />
                     </svg>
-                  </Accordion.Trigger>
-                </header>
+                  </div>
+                </Accordion.Trigger>
               </Accordion.Header>
               <Accordion.Content className='pt-2 text-IFText text-base font-normal data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp'>
                 {faq.answer}

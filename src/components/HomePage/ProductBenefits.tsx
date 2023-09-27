@@ -75,7 +75,7 @@ export default function ProductBenefits() {
             alt='Use cases'
             width={499}
             height={704}
-            className='block object-cover object-right'
+            className='block object-cover object-right h-[704px] w-auto rounded-b-3xl'
           />
         </section>
       </section>

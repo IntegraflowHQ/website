@@ -6,7 +6,7 @@ import WaitlistModal from './WaitlistModal';
 export default function Hero() {
   return (
     <div
-      className='w-full rounded-b-3xl pt-[46px] md:pt-[122px]'
+      className='w-full rounded-b-xl md:rounded-b-3xl pt-[46px] md:pt-[122px]'
       style={{
         backgroundImage:
           "url('/bg-line.svg'), url(/bg-dots.svg), linear-gradient(140deg, rgba(28, 15, 89, 0.95) 40%, rgba(0, 107, 41, 0.95)), url(/bg.svg)",

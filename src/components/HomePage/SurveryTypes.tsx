@@ -8,7 +8,7 @@ export default function SurveryTypes() {
   return (
     <div
       id='survey-types'
-      className='pt-12 pb-20 min-h-screen rounded-b-[32px]'
+      className='pt-[43.1px] md:pt-12 pb-20 pl-[12px] pr-[11.21px] xl:px-20 min-h-screen rounded-b-xl md:rounded-b-3xl lg:rounded-b-[32px]'
       style={{
         backgroundImage:
           'url(/images/survey-types/blue.svg), url(/images/survey-types/green.svg), url(/images/survey-types/bg-dots.svg)',
@@ -18,15 +18,15 @@ export default function SurveryTypes() {
         backgroundColor: '#0F0F0F',
       }}
     >
-      <div className='container mx-auto xl:px-20'>
-        <div className='flex items-center gap-[71px] mx-auto w-max'>
-          <GlassContainer className='pt-[26px] pb-[25px] pl-[26px] space-y-[41px] rounded-t-[20px]'>
+      <div className='container mx-auto flex flex-col gap-[15px]'>
+        <div className='order-2 flex flex-col sm:flex-row sm:items-center gap-[15px] md:gap-[71px] sm:justify-center w-full'>
+          <GlassContainer className='pt-[26px] pb-[25px] pl-[26px] space-y-[41px] rounded-t-[20px] w-full sm:max-w-[521px]'>
             <Image
               src={'/images/survey-types/nps.svg'}
               width={494}
               height={209}
               alt='NPS'
-              className='rounded-l-[11.5px]'
+              className='rounded-l-[11.5px] w-full h-auto'
             />
             <SurveyDetails
               title='NPS ( Net promoter score)'
@@ -35,7 +35,7 @@ export default function SurveryTypes() {
             />
           </GlassContainer>
 
-          <GlassContainer className='px-6 py-9 rounded-t-[20px] max-w-[348px] space-y-6'>
+          <GlassContainer className='px-6 py-9 rounded-t-[20px] w-full sm:max-w-[348px] space-y-6'>
             <SurveyDetails
               title='Contact response'
               description='Collect user contact details for follow-ups, inquiries, or subscription sign-ups.'
@@ -45,18 +45,18 @@ export default function SurveryTypes() {
               height={288}
               width={300}
               alt='Contact form'
-              className='rounded-[12.608px]'
+              className='rounded-[12.608px] w-full h-auto'
             />
           </GlassContainer>
         </div>
 
-        <header className='flex items-center mx-auto w-max gap-[89px] py-9'>
-          <section className='max-w-[593px]'>
+        <header className='order-1 sm:order-2 flex flex-col sm:flex-row sm:items-center w-full sm:mx-auto lg:w-max gap-[28px] md:gap-[89px] md:py-9'>
+          <section className='max-w-[313px] md:max-w-[593px]'>
             <Pill text='Very easy to use' variant='secondary' />
-            <h2 className='text-IFGreen text-[72px] font-medium leading-[80px] pt-2 pb-4'>
+            <h2 className='text-IFGreen text-4xl lg:text-[72px] font-medium lg:leading-[80px] pt-2 pb-3  md:pb-4'>
               Leverage on our Survey widgets
             </h2>
-            <p className='max-w-[533px] text-IFText pb-8'>
+            <p className='max-w-[533px] text-IFText pb-6 md:pb-8 text-sm md:text-base font-normal'>
               Each question is unique, and every response matters. We offer a
               wide range of response options for all your survey needs, be it
               customer feedback, market research, or opinions.{' '}
@@ -65,7 +65,7 @@ export default function SurveryTypes() {
             <Button text='Check demo' />
           </section>
 
-          <GlassContainer className='space-y-6 px-6 py-8 max-w-[354px] rounded-t-[20px]'>
+          <GlassContainer className='space-y-6 px-6 py-8 w-full md:max-w-[354px] rounded-t-[20px]'>
             <Image
               src={'/images/survey-types/rating.svg'}
               width={306}
@@ -81,8 +81,8 @@ export default function SurveryTypes() {
           </GlassContainer>
         </header>
 
-        <div className='flex items-center mx-auto w-max gap-[68px] py-9'>
-          <GlassContainer className='pt-8 px-6 rounded-t-[20px] space-y-6'>
+        <div className='order-2 flex flex-col sm:flex-row sm:items-center mx-auto w-full lg:w-max gap-[15px] md:gap-[68px] md:py-9'>
+          <GlassContainer className='pt-8 px-6 rounded-t-[20px] space-y-6 w-full md:max-w-[524px]'>
             <SurveyDetails
               title='Matrix response'
               description='Efficiently capture complex data using a customizable grid of items, perfect for evaluating multiple items with the same response options.'
@@ -97,7 +97,7 @@ export default function SurveryTypes() {
             />
           </GlassContainer>
 
-          <GlassContainer className='px-6 pt-8 rounded-b-[20px] space-y-6 max-w-[345px]'>
+          <GlassContainer className='px-6 pt-8 rounded-b-[20px] space-y-6 w-full md:max-w-[345px]'>
             <SurveyDetails
               title='Single choice'
               description='Collect accurate answers using single-choice questions. Ideal for polls, quizzes, and easy decision-making.'

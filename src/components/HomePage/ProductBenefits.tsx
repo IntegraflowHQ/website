@@ -28,7 +28,7 @@ const CurlyBracket = () => (
 export default function ProductBenefits() {
   return (
     <section
-      className='py-[46px] md:py-16 px-[14px] bg-IFBlack rounded-t-3xl md:bg-benefits md:bg-no-repeat md:bg-right'
+      className='py-[46px] md:py-16 px-[14px] bg-IFBlack rounded-t-xl md:rounded-t-3xl md:bg-benefits md:bg-no-repeat md:bg-right'
       id='benefit'
     >
       <section className='container flex justify-between mx-auto xl:px-20'>

@@ -13,8 +13,10 @@ export default function SurveyDetails({
 }: Props) {
   return (
     <header className={cn('space-y-[6px]', className ?? '')}>
-      <h3 className='text-xl font-medium text-white'>{title}</h3>
-      <p className='text-sm font-normal text-IFText'>{description}</p>
+      <h3 className='text-sm md:text-xl font-medium text-white'>{title}</h3>
+      <p className='text-xs leading-[18px] md:text-sm font-normal text-IFText'>
+        {description}
+      </p>
     </header>
   );
 }

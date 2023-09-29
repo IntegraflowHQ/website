@@ -20,7 +20,7 @@ const useCases = [
 ];
 
 const CurlyBracket = () => (
-  <strong className='text-[154px] font-thin -mt-[18px] leading-none text-IFText'>
+  <strong className='text-[110px] md:text-[154px] font-thin -mt-[12px] md:-mt-[18px] leading-none text-IFText'>
     {'}'}
   </strong>
 );
@@ -28,21 +28,16 @@ const CurlyBracket = () => (
 export default function ProductBenefits() {
   return (
     <section
-      className='py-16 bg-IFBlack rounded-t-3xl'
-      style={{
-        backgroundImage: 'url(/bg/use-cases.png)',
-        backgroundPosition: 'center right',
-        backgroundRepeat: 'no-repeat',
-      }}
+      className='py-[46px] md:py-16 px-[14px] bg-IFBlack rounded-t-3xl md:bg-benefits md:bg-no-repeat md:bg-right'
       id='benefit'
     >
       <section className='container flex justify-between mx-auto xl:px-20'>
         <section className='max-w-[419px]'>
           <header className='space-y-2'>
-            <h2 className='text-IFTextBold text-[44px] leading-[52px] font-medium'>
+            <h2 className='text-IFTextBold text-[28px] leading-8 md:text-[44px] md:leading-[52px] font-medium'>
               See What You can do with Integraflow
             </h2>
-            <p className='pb-5 text-base font-normal text-IFText'>
+            <p className='pb-5 text-sm md:text-base font-normal text-IFText'>
               Automate. Simplify. Track Your Ever-Changing Customer’s Journey in
               One Space
             </p>
@@ -53,10 +48,10 @@ export default function ProductBenefits() {
               <section key={index} className='flex items-center gap-2'>
                 <CurlyBracket />
                 <div>
-                  <h3 className='text-lg font-semibold text-white'>
+                  <h3 className='text-base md:text-lg font-semibold text-white'>
                     {useCase.title}
                   </h3>
-                  <p className='text-base font-normal text-IFText'>
+                  <p className='text-xs leading-5 md:text-base font-normal text-IFText'>
                     {useCase.description}
                   </p>
                 </div>
@@ -64,12 +59,12 @@ export default function ProductBenefits() {
             ))}
           </div>
 
-          <div className='pt-8 pl-[60px]'>
+          <div className='pt-8 pl-[60px] hidden md:block'>
             <WaitlistModal buttonProps={{ text: 'Get early access today' }} />
           </div>
         </section>
 
-        <section>
+        <section className='hidden md:block'>
           <Image
             src='/images/product-benefits/user.svg'
             alt='Use cases'

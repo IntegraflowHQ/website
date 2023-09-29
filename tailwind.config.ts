@@ -16,6 +16,7 @@ const config: Config = {
           'linear-gradient(27deg, #53389E 8.33%, #6941C6 91.67%)',
         'gradient-button-hover':
           'linear-gradient(27deg, #299532 8.33%, #7EE787 91.67%)',
+        benefits: 'url(/bg/use-cases.png)',
       },
       colors: {
         primary: '#545F71',

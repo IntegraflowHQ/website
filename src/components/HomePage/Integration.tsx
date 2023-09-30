@@ -51,7 +51,7 @@ const integrationIconRowTwo = [
 export default function Integration() {
   return (
     <section
-      className="rounded-t-[32px] bg-IFBlack pb-[54px] pt-20"
+      className="rounded-t-xl bg-IFBlack py-16 lg:rounded-t-[32px] lg:pb-[54px] lg:pt-20"
       style={{
         backgroundImage:
           "url(/images/survey-types/bg-dots.svg), radial-gradient(rgba(12, 79, 37, 1), rgba(5, 5, 5, 1))",
@@ -66,7 +66,7 @@ export default function Integration() {
             {integrationIconRowOne.map((Icon, index) => (
               <div
                 key={index}
-                className="flex h-[23px] w-[23px] lg:h-max lg:w-max"
+                className="rounded-[6.41px] border-[1.83px] border-[#093F1D] lg:rounded-[16.654px] lg:border-[3.84px] [&>*]:h-[23px] [&>*]:w-[23px] lg:[&>*]:h-max lg:[&>*]:w-max"
               >
                 <Icon />
               </div>
@@ -76,7 +76,7 @@ export default function Integration() {
             {integrationIconRowTwo.map((Icon, index) => (
               <div
                 key={index}
-                className="flex h-[23px] w-[23px] lg:h-max lg:w-max"
+                className="flex rounded-[6.41px] border-[1.83px] border-[#093F1D] only:h-[23px] only:w-[23px] lg:rounded-[16.654px] lg:border-[3.84px] [&>*]:h-[23px] [&>*]:w-[23px] lg:[&>*]:h-max lg:[&>*]:w-max"
               >
                 <Icon />
               </div>

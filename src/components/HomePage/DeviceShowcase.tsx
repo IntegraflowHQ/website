@@ -14,14 +14,14 @@ export default function DeviceShowcase() {
         backgroundRepeat: "no-repeat, no-repeat",
         backgroundColor: "#050505",
       }}
-      className="space-y-12 rounded-t-[32px] pb-[78px] pt-20"
+      className="space-y-12 rounded-t-xl pb-[78px] pl-[11.53px] pr-[12.53px] pt-20 lg:rounded-t-[32px] "
     >
-      <header className="container mx-auto flex gap-10 xl:px-20">
-        <h2 className="text-[44px] font-medium leading-[52px] text-IFTextBold">
+      <header className="container mx-auto flex flex-col gap-4 pr-[34.47px] sm:flex-row lg:gap-10 xl:px-20">
+        <h2 className="text-[28px] font-medium leading-8 text-IFTextBold lg:text-[44px] lg:leading-[52px]">
           Automated surveys throughout the user journey
         </h2>
         <div className="space-y-8">
-          <p className="text-lg font-normal text-IFText">
+          <p className="text-sm font-normal text-IFText lg:text-lg">
             To understand user behavior, fulfill (your) customer-user core
             market needs and continually increase the overall business output
           </p>
@@ -29,26 +29,26 @@ export default function DeviceShowcase() {
         </div>
       </header>
 
-      <div className="mx-auto flex w-max items-center gap-5">
-        <GlassContainer className="w-[414px] rounded-t-3xl pl-[33px] pr-[64.51px] pt-[33px]">
+      <div className="mx-auto flex w-full flex-col items-center gap-5 lg:w-max lg:flex-row">
+        <GlassContainer className="w-full rounded-t-3xl pl-[33px] pr-[64.51px] pt-[33px] lg:w-[414px]">
           <Pill text="Mobile" />
           <SurveyDetails
             title="Single answer selection"
             description="We provide comprehensive, data-driven solution to understand user behavior."
             className="pb-[52px] pt-4"
           />
-          <div className="flex justify-end">
+          <div className=";g:justify-end flex justify-center">
             <Image
               src={"/images/showcase/mobile.jpg"}
               width={300}
               height={384}
               alt="Mobile"
-              className="rounded-t-[50px]"
+              className="rounded-t-[40px] sm:rounded-t-[50px]"
             />
           </div>
         </GlassContainer>
 
-        <GlassContainer className="h-min w-[630px] rounded-3xl">
+        <GlassContainer className="h-min w-full rounded-3xl lg:w-[630px]">
           <div className="max-w-[316px] pl-8 pt-8">
             <Pill text="Desktop" />
             <SurveyDetails

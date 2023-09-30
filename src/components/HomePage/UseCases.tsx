@@ -12,7 +12,7 @@ export default function UseCases() {
         backgroundRepeat: "no-repeat, no-repeat",
         backgroundSize: "cover, cover",
       }}
-      className="space-y-12 rounded-xl pb-[31.07px] pt-[39px] lg:rounded-b-[32px] lg:pb-[49.25px] lg:pt-[55px]"
+      className="space-y-12 rounded-b-xl pb-[31.07px] pt-[39px] lg:rounded-b-[32px] lg:pb-[49.25px] lg:pt-[55px]"
     >
       <section className="container mx-auto flex flex-col items-center gap-[27px] md:flex-row lg:gap-[29px] xl:px-20">
         <header className="max-[479px]">

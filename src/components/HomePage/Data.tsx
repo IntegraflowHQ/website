@@ -39,7 +39,7 @@ const features = [
 export default function Data() {
   return (
     <div
-      className="rounded-t-[32px] bg-IFBlack px-5 py-20"
+      className="hidden rounded-t-[32px] bg-IFBlack px-5 py-20 lg:block"
       style={{
         backgroundImage: "url(/images/data/bg.png)",
         backgroundPosition: "bottom right",

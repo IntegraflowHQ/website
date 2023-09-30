@@ -1,4 +1,4 @@
-import { cn } from '@/utils';
+import { cn } from "@/utils";
 
 interface Props {
   title: string;
@@ -12,9 +12,9 @@ export default function SurveyDetails({
   className,
 }: Props) {
   return (
-    <header className={cn('space-y-[6px]', className ?? '')}>
-      <h3 className='text-sm md:text-xl font-medium text-white'>{title}</h3>
-      <p className='text-xs leading-[18px] md:text-sm font-normal text-IFText'>
+    <header className={cn("space-y-[6px]", className ?? "")}>
+      <h3 className="text-sm font-medium text-white md:text-xl">{title}</h3>
+      <p className="text-xs font-normal leading-[18px] text-IFText md:text-sm">
         {description}
       </p>
     </header>

@@ -16,10 +16,10 @@ export default function Pill({
       className={cn(
         "w-max rounded-full",
         variant === "tertiary"
-          ? "text-[31.247px] font-normal capitalize leading-normal text-IFText"
+          ? "text-[18.919px] font-normal capitalize leading-normal text-IFText lg:text-[31.247px]"
           : "text-sm font-normal uppercase text-white",
         variant === "secondary" ? "bg-[#0E0926]" : "bg-[#120D1E]",
-        variant === "tertiary" ? "p-[27.775px]" : "px-4 py-2",
+        variant === "tertiary" ? "p-[14.53px] lg:p-[24px]" : "px-4 py-2",
         className ?? "",
       )}
       style={

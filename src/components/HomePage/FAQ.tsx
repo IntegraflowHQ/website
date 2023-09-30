@@ -68,16 +68,16 @@ export default function FAQ() {
         backgroundSize: "auto 1092px, auto 1092px, cover",
         backgroundColor: "#0F0F0F",
       }}
-      className="rounded-b-[32px] px-5 pb-5 pt-20"
+      className="rounded-b-xl pb-[34.9px] pl-2 pr-4 pt-[47px] lg:rounded-b-[32px] lg:px-5 lg:pb-5 lg:pt-20"
       id="faq"
     >
-      <section className="container mx-auto flex justify-between xl:px-20">
+      <section className="container mx-auto flex flex-col justify-between gap-[35px] md:flex-row lg:gap-[83px] xl:px-20">
         <section>
-          <header className="max-w-[467px] space-y-5">
-            <h2 className="text-5xl font-medium leading-normal text-IFGreen">
+          <header className="w-full space-y-3 md:max-w-[467px] lg:space-y-5">
+            <h2 className="max-w-[231px] text-[28px] font-medium leading-normal text-IFGreen lg:max-w-full lg:text-5xl">
               Frequently asked questions
             </h2>
-            <p className="text-base font-normal text-IFText">
+            <p className="text-sm font-normal text-IFText lg:text-base">
               If you have any more questions or need further assistance, please
               don&apos;t hesitate to{" "}
               <Link href={"#"} target="_blank" className="text-white underline">
@@ -88,7 +88,10 @@ export default function FAQ() {
             </p>
           </header>
           <WaitlistModal
-            buttonProps={{ text: "Join waitlist", className: "mt-[27px]" }}
+            buttonProps={{
+              text: "Join waitlist",
+              className: "mt-[24px] lg:mt-[27px]",
+            }}
           />
         </section>
 
@@ -96,7 +99,7 @@ export default function FAQ() {
           defaultValue={faqs[0].question}
           type="single"
           collapsible
-          className="w-full max-w-[531px] space-y-4"
+          className="w-full space-y-4 md:max-w-[531px]"
         >
           {faqs.map((faq, index) => (
             <Accordion.Item
@@ -106,7 +109,7 @@ export default function FAQ() {
             >
               <Accordion.Header asChild>
                 <Accordion.Trigger className="flex w-full items-center justify-between">
-                  <h3 className="max-w-[417px] text-left text-lg font-medium text-white">
+                  <h3 className="max-w-[417px] text-left text-sm font-medium text-white lg:text-lg">
                     {faq.question}
                   </h3>
 
@@ -136,7 +139,7 @@ export default function FAQ() {
                   </div>
                 </Accordion.Trigger>
               </Accordion.Header>
-              <Accordion.Content className="pt-2 text-base font-normal text-IFText data-[state=closed]:animate-slideUp data-[state=open]:animate-slideDown">
+              <Accordion.Content className="pt-2 text-[11.678px] font-normal leading-[17.517px] text-IFText data-[state=closed]:animate-slideUp data-[state=open]:animate-slideDown lg:text-base">
                 {faq.answer}
               </Accordion.Content>
             </Accordion.Item>

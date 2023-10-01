@@ -16,7 +16,7 @@ const Button = React.forwardRef(
     return (
       <button
         className={cn(
-          "rounded-lg px-8 py-4 text-base font-medium text-white hover:bg-gradient-button-hover",
+          "rounded-lg px-8 py-3 text-sm font-medium text-white hover:bg-gradient-button-hover lg:py-4 lg:text-base",
           variant === "primary" ? "bg-gradient-button" : "",
           variant === "secondary" ? "bg-IFPurpleDark" : "",
           variant === "tertiary" ? "bg-[rgba(50, 39, 81, 0.20)]" : "",

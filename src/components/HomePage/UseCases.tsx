@@ -27,12 +27,12 @@ export default function UseCases() {
 
         <div>
           <Pill
-            text="Founders"
+            text="Founders / Business owners"
             variant="tertiary"
             className="ml-[78.29px] md:ml-[126px]"
           />
           <Pill
-            text="Business Owners"
+            text="Customer success team"
             variant="tertiary"
             className="-mt-[14px] ml-[136.83px] md:-mt-[24px] md:ml-[226px]"
           />
@@ -42,17 +42,17 @@ export default function UseCases() {
             className="-mt-[14.53px] lg:-mt-[24px]"
           />
           <Pill
-            text="Product management"
+            text="Product management team"
             variant="tertiary"
             className="-mt-[14.53px] ml-[118.67px] md:ml-[196px] lg:-mt-[24px]"
           />
           <Pill
-            text="Product marketing"
+            text="Product marketing team"
             variant="tertiary"
             className="-mt-[14.53px] ml-[45.41px] md:ml-[75px] lg:-mt-[24px]"
           />
           <Pill
-            text="Developers/(Engineers)"
+            text="Developers / Engineers"
             variant="tertiary"
             className="-mt-[14.53px] ml-[101px] md:ml-[167px] lg:-mt-[24px]"
           />

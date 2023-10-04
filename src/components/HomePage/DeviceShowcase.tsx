@@ -22,8 +22,8 @@ export default function DeviceShowcase() {
         </h2>
         <div className="space-y-8">
           <p className="text-sm font-normal text-IFText lg:text-lg">
-            To understand user behavior, fulfill (your) customer-user core
-            market needs and continually increase the overall business output
+            To understand user behavior, fulfill customer-user core market needs
+            to continually increase the overall business output
           </p>
           <Button text="Check demo" />
         </div>
@@ -34,7 +34,7 @@ export default function DeviceShowcase() {
           <Pill text="Mobile" />
           <SurveyDetails
             title="Single answer selection"
-            description="We provide comprehensive, data-driven solution to understand user behavior."
+            description="We offer data-driven solutions for customer insights and market needs."
             className="pb-[52px] pt-4"
           />
           <div className="flex justify-center lg:justify-end">
@@ -53,7 +53,7 @@ export default function DeviceShowcase() {
             <Pill text="Desktop" />
             <SurveyDetails
               title="Single answer selection"
-              description="We provide comprehensive, data-driven solution to understand user behavior."
+              description="We offer data-driven solutions for customer insights and market needs."
               className="pb-[52px] pt-4"
             />
           </div>

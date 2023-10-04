@@ -13,7 +13,7 @@ const useCases = [
       "Generate links for sharing via email, social media, or embedding in apps to easily interact and collect responses.",
   },
   {
-    title: "Location is no barrier",
+    title: "Streamline your workflow",
     description:
       "Our platform seamlessly connects with a range of third-party apps, enhancing your productivity.",
   },

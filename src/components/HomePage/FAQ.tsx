@@ -79,12 +79,12 @@ export default function FAQ() {
             </h2>
             <p className="text-sm font-normal text-IFText lg:text-base">
               If you have any more questions or need further assistance, please
-              don&apos;t hesitate to{" "}
+              do not hesitate to{" "}
               <Link href={"#"} target="_blank" className="text-white underline">
                 contact us
               </Link>{" "}
-              directly. We&apos;re here to help you make the most of
-              Intergraflow. FEEL FREE TO CHAT WITH US
+              directly. We're here to help you make the most of Intergraflow.
+              Feel free to chat with us!
             </p>
           </header>
           <WaitlistModal

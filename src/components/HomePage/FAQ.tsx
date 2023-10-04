@@ -83,8 +83,8 @@ export default function FAQ() {
               <Link href={"#"} target="_blank" className="text-white underline">
                 contact us
               </Link>{" "}
-              directly. We're here to help you make the most of Intergraflow.
-              Feel free to chat with us!
+              directly. We&apos;re here to help you make the most of
+              Intergraflow. Feel free to chat with us!
             </p>
           </header>
           <WaitlistModal

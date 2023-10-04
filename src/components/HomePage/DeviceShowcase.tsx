@@ -29,26 +29,26 @@ export default function DeviceShowcase() {
         </div>
       </header>
 
-      <div className="mx-auto flex w-full flex-col items-center gap-5 lg:w-max lg:flex-row">
-        <GlassContainer className="w-full rounded-t-3xl pl-[33px] pr-[64.51px] pt-[33px] lg:w-[414px]">
+      <div className="container mx-auto flex w-full flex-col items-center gap-5 md:flex-row xl:px-20">
+        <GlassContainer className="w-full rounded-t-3xl pl-[33px] pr-[64.51px] pt-[33px] md:w-[38.7%]">
           <Pill text="Mobile" />
           <SurveyDetails
             title="Single answer selection"
             description="We provide comprehensive, data-driven solution to understand user behavior."
             className="pb-[52px] pt-4"
           />
-          <div className=";g:justify-end flex justify-center">
+          <div className="flex justify-center lg:justify-end">
             <Image
               src={"/images/showcase/mobile.jpg"}
               width={300}
               height={384}
               alt="Mobile"
-              className="rounded-t-[40px] sm:rounded-t-[50px]"
+              className="h-auto w-full rounded-t-[40px] md:h-full lg:rounded-t-[50px]"
             />
           </div>
         </GlassContainer>
 
-        <GlassContainer className="h-min w-full rounded-3xl lg:w-[630px]">
+        <GlassContainer className="h-min w-full rounded-3xl md:w-[61.3%]">
           <div className="max-w-[316px] pl-8 pt-8">
             <Pill text="Desktop" />
             <SurveyDetails
@@ -63,7 +63,7 @@ export default function DeviceShowcase() {
               width={593}
               height={466}
               alt="Desktop"
-              className="block h-full w-full rounded-bl-3xl"
+              className="block h-full w-full rounded-bl-3xl md:h-full"
             />
           </div>
         </GlassContainer>

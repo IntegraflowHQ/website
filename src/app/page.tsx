@@ -10,7 +10,7 @@ import UseCases from "@/components/HomePage/UseCases";
 
 export default function Home() {
   return (
-    <main className="space-y-2 px-1 pb-2 lg:px-[25px]">
+    <main className="space-y-2 px-1 pb-2 pt-[72px] lg:px-[25px]">
       <Hero />
       <ProductBenefits />
       <SurveryTypes />

@@ -85,7 +85,7 @@ export default function WaitlistModal({ buttonProps }: Props) {
             backdropFilter: "blur(6px)",
           }}
         />
-        <Dialog.Content className="fixed inset-0 z-30 flex items-center justify-center bg-IFBlack p-8 md:inset-auto md:left-1/2 md:top-1/2 md:w-max md:-translate-x-1/2 md:-translate-y-1/2 md:rounded-t-3xl lg:p-12">
+        <Dialog.Content className="fixed inset-0 z-30 flex items-center justify-center bg-IFBlack p-8 sm:inset-auto sm:left-1/2 sm:top-1/2 sm:w-max sm:-translate-x-1/2 sm:-translate-y-1/2 sm:rounded-t-3xl lg:p-12">
           <div>
             <div className="mb-5 flex justify-end lg:mb-8">
               <Dialog.Close>

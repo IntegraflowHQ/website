@@ -36,10 +36,10 @@ export default function Nav() {
         <Link href="/" className="shrink-0">
           <Image
             src="/logo.svg"
-            width={133}
-            height={29}
+            width={180}
+            height={26}
             alt="Integraflow"
-            className="h-[24px] w-[111px] md:h-[29px] md:w-[133px]"
+            className="h-[20px] w-[137px] md:h-[26px] md:w-[180px]"
           />
         </Link>
 

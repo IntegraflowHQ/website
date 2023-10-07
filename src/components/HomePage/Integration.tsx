@@ -62,7 +62,7 @@ export default function Integration() {
     >
       <section className="mx-auto w-full space-y-7 lg:w-max">
         <div className="mx-auto w-full max-w-max space-y-4">
-          <div className="flex w-full max-w-max gap-[2.8px] lg:gap-[6.11px]">
+          <div className="flex w-full max-w-max gap-[2.8px] overflow-clip lg:gap-[6.11px]">
             {integrationIconRowOne.map((Icon, index) => (
               <div
                 key={index}
@@ -84,7 +84,7 @@ export default function Integration() {
           </div>
         </div>
 
-        <header className="mx-auto flex w-full max-w-[839px] flex-col items-center gap-2 px-10 lg:gap-4 lg:px-0">
+        <header className="mx-auto flex w-full max-w-[839px] flex-col items-center gap-2 px-5 sm:px-10 lg:gap-4 lg:px-0">
           <h2 className="text-center text-[28px] font-semibold leading-normal text-white lg:text-[52px]">
             Seamlessly Connect Integraflow with Your Workflow
           </h2>

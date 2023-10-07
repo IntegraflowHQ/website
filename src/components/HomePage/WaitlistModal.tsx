@@ -4,29 +4,29 @@ import Link from "next/link";
 import { FormEvent, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import Button, { ButtonProps } from "../Button";
-import { Discord2, Instagram, LinkedIn, Twitter } from "../icons";
+import { LinkedIn, Twitter } from "../icons";
 
 const socialLinks = [
   {
     name: "Twitter",
-    url: "#",
+    url: "https://twitter.com/useintegraflow",
     icon: Twitter,
   },
-  {
-    name: "Instagram",
-    url: "#",
-    icon: Instagram,
-  },
+  // {
+  //   name: "Instagram",
+  //   url: "#",
+  //   icon: Instagram,
+  // },
   {
     name: "LinkedIn",
-    url: "#",
+    url: "https://www.linkedin.com/company/useintegraflow",
     icon: LinkedIn,
   },
-  {
-    name: "Discord",
-    url: "#",
-    icon: Discord2,
-  },
+  // {
+  //   name: "Discord",
+  //   url: "#",
+  //   icon: Discord2,
+  // },
 ];
 
 const waitlistId = process.env.NEXT_PUBLIC_WAITLIST_ID;

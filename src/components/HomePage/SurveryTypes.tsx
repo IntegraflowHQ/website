@@ -51,7 +51,7 @@ export default function SurveryTypes() {
         </div>
 
         <header className="order-1 flex w-full flex-col gap-[28px] sm:order-2 sm:mx-auto sm:flex-row sm:items-center md:gap-[89px] md:py-9 lg:w-max">
-          <section className="max-w-[313px] md:max-w-[593px]">
+          <section className="md:max-w-[593px]">
             <Pill text="Very easy to use" variant="secondary" />
             <h2 className="pb-3 pt-2 text-4xl font-medium text-IFGreen md:pb-4 lg:text-[72px]  lg:leading-[80px]">
               Leverage on our Survey widgets

@@ -38,16 +38,16 @@ const navLinks = [
   [
     {
       name: "Twitter",
-      href: "#",
+      href: "https://twitter.com/useintegraflow",
     },
     {
       name: "LinkedIn",
-      href: "#",
+      href: "https://www.linkedin.com/company/useintegraflow",
     },
-    {
-      name: "Instagram",
-      href: "#",
-    },
+    // {
+    //   name: "Instagram",
+    //   href: "#",
+    // },
   ],
 ];
 
@@ -55,17 +55,17 @@ export default function Footer() {
   return (
     <footer className="space-y-5 rounded-b-xl bg-IFBlack p-5 pt-[60px] lg:rounded-b-[32px]">
       <section className="container mx-auto flex flex-col justify-between gap-[29px] md:flex-row xl:px-20">
-        <header className="flex w-max flex-col gap-2 lg:gap-3">
+        <header className="flex w-full flex-col gap-2 md:w-max lg:gap-3">
           <h2 className="text-base font-semibold leading-normal text-IFTextLight lg:text-2xl">
             Integraflow
           </h2>
-          <p className="max-w-[239px] text-xs font-normal leading-5 text-IFText lg:text-sm lg:leading-6">
+          <p className="text-xs font-normal leading-5 text-IFText md:max-w-[239px] lg:text-sm lg:leading-6">
             We&apos;re here to help you make the most of Integraflow.
           </p>
           <Button
             variant="tertiary"
             text="Feel free to chat with us."
-            className="lg:mt-[7px]"
+            className="self-start lg:mt-[7px]"
           />
         </header>
 
@@ -78,11 +78,12 @@ export default function Footer() {
                 index === 0 ? "row-span-2" : "",
               )}
             >
-              {links.map((link, index) => (
-                <li key={index}>
+              {links.map((link, i) => (
+                <li key={i}>
                   <a
                     href={link.href}
                     className="text-sm font-normal text-IFText"
+                    target={link.href.startsWith("#") ? "" : "_blank"}
                   >
                     {link.name}
                   </a>

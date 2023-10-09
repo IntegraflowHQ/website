@@ -32,7 +32,7 @@ const navLinks = [
     },
     {
       name: "Contact Us",
-      href: "#",
+      href: "mailto:support@useintegraflow.com?subject=Hello%20Integraflow",
     },
   ],
   [

@@ -80,7 +80,7 @@ export default function FAQ() {
             <p className="text-sm font-normal text-IFText lg:text-base">
               If you have any more questions or need further assistance, please
               do not hesitate to{" "}
-              <Link href={"#"} target="_blank" className="text-white underline">
+              <Link href={"mailto:support@useintegraflow.com"} target="_blank" className="text-white underline">
                 contact us
               </Link>{" "}
               directly. We&apos;re here to help you make the most of

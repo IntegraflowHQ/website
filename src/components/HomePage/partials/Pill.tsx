@@ -16,7 +16,7 @@ export default function Pill({
       className={cn(
         "rounded-full",
         variant === "tertiary"
-          ? "max-w-max text-center text-[18.919px] font-normal capitalize leading-normal text-IFText lg:text-[31.247px]"
+          ? "sm:w-max text-center sm:text-left text-[18.919px] font-normal capitalize leading-normal text-IFText lg:text-[31.247px]"
           : "w-max text-sm font-normal uppercase text-white",
         variant === "secondary" ? "bg-[#0E0926]" : "bg-[#120D1E]",
         variant === "tertiary" ? "p-[14.53px] lg:p-[24px]" : "px-4 py-2",

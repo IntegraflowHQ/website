@@ -26,7 +26,7 @@ export default function Hero() {
             }}
           >
             <p className="text-xs font-normal leading-[18px] text-white md:text-sm">
-              We are open souce -{" "}
+              We are open source -{" "}
               <Link
                 href={"https://github.com/IntegraflowHQ"}
                 target="_blank"

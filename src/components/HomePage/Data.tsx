@@ -11,28 +11,24 @@ const features = [
     title: "Real-time Data Analytics",
     description:
       "Harness the power of real-time data analytics with INTEGRAFLOW. Watch as survey responses pour in, and instantly gain access to a wealth of insights. Our dynamic analytics dashboard transforms raw data into actionable information right before your eyes. Monitor trends, track progress, and make data-driven decisions without delay.",
-    image: AnalysisImage,
   },
   {
     name: "Real-Time Collaboration",
     title: "Real-time Collaboration",
     description:
       "Collaborate seamlessly with your team, no matter where they are. Formily's real-time collaboration feature lets multiple team members work on surveys simultaneously. Collaborate on survey design, analyse results together, and streamline your workflow with effortless teamwork.",
-    image: AnalysisImage,
   },
   {
     name: "Advanced Triggers",
     title: "Advanced Triggers",
     description:
       "Take survey automation to the next level with advanced triggers. Set up triggers based on complex conditions, allowing you to collect feedback at precisely the right moments within your product or workflow. Whether you need to capture responses based on user interactions, behaviours, or specific events, Formily's advanced triggers make it possible.",
-    image: AnalysisImage,
   },
   {
     name: "User Segmentation",
     title: "User Segmentation",
     description:
       "Take your surveys to the next level with advanced targeting and user segmentation. Formily empowers you to define specific user segments based on attributes and behaviours. Tailor your surveys to resonate with different audience groups and collect the most relevant data. Gain a deeper understanding of your audience's preferences and needs.",
-    image: AnalysisImage,
   },
 ];
 
@@ -96,7 +92,7 @@ export default function Data() {
                 />
               </div>
               <Image
-                src={feature.image.src}
+                src={AnalysisImage.src}
                 alt={feature.name}
                 width={445}
                 height={334}

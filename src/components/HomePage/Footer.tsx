@@ -62,11 +62,13 @@ export default function Footer() {
           <p className="text-xs font-normal leading-5 text-IFText md:max-w-[239px] lg:text-sm lg:leading-6">
             We&apos;re here to help you make the most of Integraflow.
           </p>
-          <Button
-            variant="tertiary"
-            text="Feel free to chat with us."
-            className="self-start lg:mt-[7px]"
-          />
+          <Link href={"mailto:support@useintegraflow.com"}>
+            <Button
+              variant="tertiary"
+              text="Feel free to chat with us."
+              className="self-start lg:mt-[7px]"
+            />
+          </Link>
         </header>
 
         <nav className="grid grid-cols-3 grid-rows-2 gap-3">

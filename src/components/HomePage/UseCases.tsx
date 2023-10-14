@@ -26,40 +26,54 @@ export default function UseCases() {
         </header>
 
         <div>
+          <Pill variant="tertiary" className="ml-[37.95px] md:ml-[16px]">
+            <p>
+              Founders{" "}
+              <span className="hidden sm:inline">/ Business owners</span>
+            </p>
+          </Pill>
           <Pill
-            text="Founders / Business owners"
+            text="Business owners"
             variant="tertiary"
-            className="ml-[37.95px] md:ml-[16px]"
+            className="-mt-[14px] ml-[100px] sm:hidden md:-mt-[24px]"
           />
           <Pill
             text="Customer success team"
             variant="tertiary"
-            className="-mt-[14px] hidden sm:block md:-mt-[24px] md:ml-[147px]"
+            className="-mt-[14px] ml-[100px] hidden sm:block md:-mt-[24px]"
           />
           <Pill
-            text="Growth marketing team"
             variant="tertiary"
             className="-mt-[14.53px] md:ml-1 lg:-mt-[24px]"
-          />
+          >
+            <p>
+              Growth marketing <span className="hidden sm:inline">team</span>
+            </p>
+          </Pill>
+
           <Pill
-            text="Product management team"
             variant="tertiary"
-            className="-mt-[14.53px] ml-auto mr-[13.27px] md:ml-[84px] lg:-mt-[24px]"
-          />
-          <Pill
-            text="Product marketing team"
-            variant="tertiary"
-            className="-mt-[14.53px] lg:-mt-[24px]"
-          />
+            className="-mt-[14.53px] ml-[70px] mr-[13.27px] md:ml-[84px] lg:-mt-[24px]"
+          >
+            <p>
+              Product management <span className="hidden sm:inline">team</span>
+            </p>
+          </Pill>
+
+          <Pill variant="tertiary" className="-mt-[14.53px] lg:-mt-[24px]">
+            <p>
+              Product marketing <span className="hidden sm:inline">team</span>
+            </p>
+          </Pill>
           <Pill
             text="Developers / Engineers"
             variant="tertiary"
-            className="relative z-[2] -mt-[14.53px] ml-auto mr-[13.83px] md:ml-[123px] lg:-mt-[24px]"
+            className="relative z-[2] -mt-[14.53px] ml-[70px] lg:-mt-[24px] lg:ml-[123px]"
           />
           <Pill
             text="Sales team"
             variant="tertiary"
-            className="-mt-[14.53px] ml-10 md:ml-[101px] lg:-mt-[24px]"
+            className="-mt-[14.53px] ml-10 lg:-mt-[24px] lg:ml-[101px]"
           />
         </div>
       </section>

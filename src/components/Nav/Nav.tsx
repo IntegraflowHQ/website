@@ -29,6 +29,8 @@ const links = [
 
 export default function Nav() {
   const ref = useRef<HTMLDivElement>(null);
+  const breadCrumb = useRef<SVGSVGElement>(null);
+  const xMark = useRef<SVGSVGElement>(null);
 
   return (
     <nav className="fixed top-0 z-20 w-full border-b border-black bg-white ">
@@ -57,10 +59,13 @@ export default function Nav() {
             aria-expanded="false"
             onClick={() => {
               ref.current?.classList.toggle("hidden");
+              breadCrumb.current?.classList.toggle("hidden");
+              xMark.current?.classList.toggle("hidden");
             }}
           >
             <span className="sr-only">Open main menu</span>
             <svg
+              ref={breadCrumb}
               className="h-4 w-6"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
@@ -75,6 +80,23 @@ export default function Nav() {
                 d="M1 1h15M1 7h15M1 13h15"
               ></path>
             </svg>
+
+            <svg
+              ref={xMark}
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="hidden"
+            >
+              <path d="M18 6 6 18" />
+              <path d="m6 6 12 12" />
+            </svg>
           </button>
         </div>
 
@@ -88,7 +110,7 @@ export default function Nav() {
               <li key={link.name}>
                 <a
                   href={link.href}
-                  className="block border-b p-3 text-sm font-medium text-primary hover:bg-gray-100 md:border-b-0 md:p-0 md:hover:bg-inherit"
+                  className="block p-3 text-sm font-medium text-primary hover:bg-gray-100 md:p-0 md:hover:bg-inherit"
                 >
                   {link.name}
                 </a>
@@ -100,7 +122,7 @@ export default function Nav() {
             buttonProps={{
               text: "Join waitlist",
               className:
-                "py-[16px] text-sm font-normal md:hidden mt-3 md:mt-0 w-full md:w-auto",
+                "py-3 text-sm font-normal md:hidden mt-3 md:mt-0 w-full md:w-auto",
             }}
           />
         </div>

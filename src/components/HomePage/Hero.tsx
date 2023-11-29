@@ -58,7 +58,7 @@ export default function Hero() {
             <a href={playgroundUrl} target="_blank" rel="noopener noreferrer">
               <Button
                 text="Check demo"
-                className="sm:w-[240px]"
+                className="w-full sm:w-[240px]"
                 variant="secondary"
               />
             </a>

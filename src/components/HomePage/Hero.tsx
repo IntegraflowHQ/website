@@ -1,3 +1,4 @@
+import { playgroundUrl } from "@/routes";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "../Button";
@@ -54,11 +55,13 @@ export default function Hero() {
                 className: "sm:w-[240px]",
               }}
             />
-            <Button
-              text="Check demo"
-              className="sm:w-[240px]"
-              variant="secondary"
-            />
+            <a href={playgroundUrl} target="_blank" rel="noopener noreferrer">
+              <Button
+                text="Check demo"
+                className="sm:w-[240px]"
+                variant="secondary"
+              />
+            </a>
           </div>
         </div>
         <div className="mt-12 flex items-center gap-2 md:mt-[125px] md:gap-[14px]">

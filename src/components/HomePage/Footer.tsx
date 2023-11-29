@@ -1,3 +1,4 @@
+import { playgroundUrl } from "@/routes";
 import { cn } from "@/utils";
 import Link from "next/link";
 import Button from "../Button";
@@ -18,7 +19,7 @@ const navLinks = [
     },
     {
       name: "Check Demo",
-      href: "#",
+      href: playgroundUrl,
     },
   ],
   [

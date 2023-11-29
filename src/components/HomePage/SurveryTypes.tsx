@@ -1,3 +1,4 @@
+import { playgroundUrl } from "@/socialLinks";
 import Image from "next/image";
 import Button from "../Button";
 import GlassContainer from "./partials/GlassContainer";
@@ -62,7 +63,9 @@ export default function SurveryTypes() {
               customer feedback, market research, or opinions.{" "}
               <span className="text-white">We&apos;ve got you covered.</span>
             </p>
-            <Button text="Check demo" />
+            <a href={playgroundUrl} target="_blank" rel="noopener noreferrer">
+              <Button text="Check demo" />
+            </a>
           </section>
 
           <GlassContainer className="w-full space-y-6 rounded-t-[20px] px-6 py-8 md:max-w-[354px]">

@@ -1,15 +1,17 @@
 "use client";
+import { discordUrl, linkedInUrl, twitterUrl } from "@/socialLinks";
+import { cn } from "@/utils";
 import * as Dialog from "@radix-ui/react-dialog";
 import Link from "next/link";
 import { FormEvent, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import Button, { ButtonProps } from "../Button";
-import { LinkedIn, Twitter } from "../icons";
+import { Discord2, LinkedIn, Twitter } from "../icons";
 
 const socialLinks = [
   {
     name: "Twitter",
-    url: "https://twitter.com/useintegraflow",
+    url: twitterUrl,
     icon: Twitter,
   },
   // {
@@ -19,14 +21,14 @@ const socialLinks = [
   // },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/company/useintegraflow",
+    url: linkedInUrl,
     icon: LinkedIn,
   },
-  // {
-  //   name: "Discord",
-  //   url: "#",
-  //   icon: Discord2,
-  // },
+  {
+    name: "Discord",
+    url: discordUrl,
+    icon: Discord2,
+  },
 ];
 
 const waitlistId = process.env.NEXT_PUBLIC_WAITLIST_ID;
@@ -144,11 +146,14 @@ export default function WaitlistModal({ buttonProps }: Props) {
                 </header>
 
                 <div className="grid w-full grid-cols-2 gap-3 p-8">
-                  {socialLinks.map(({ name, icon: Icon, url }) => (
+                  {socialLinks.map(({ name, icon: Icon, url }, index) => (
                     <Link
                       href={url}
                       target="_blank"
-                      className="flex items-center justify-center gap-4 rounded-full bg-[#131313] p-4 sm:w-full sm:max-w-[206px] md:p-6 lg:justify-normal"
+                      className={cn(
+                        "flex items-center justify-center gap-4 rounded-full bg-[#131313] p-4 sm:w-full sm:max-w-[206px] md:p-6 lg:justify-normal",
+                        index === 2 ? "col-span-2 mx-auto" : "",
+                      )}
                       key={name}
                     >
                       <Icon />

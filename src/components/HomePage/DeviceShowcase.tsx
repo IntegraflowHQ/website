@@ -1,3 +1,4 @@
+import { playgroundUrl } from "@/socialLinks";
 import Image from "next/image";
 import Button from "../Button";
 import GlassContainer from "./partials/GlassContainer";
@@ -25,7 +26,9 @@ export default function DeviceShowcase() {
             To understand user behavior, fulfill customer-user core market needs
             to continually increase the overall business output
           </p>
-          <Button text="Check demo" />
+          <a href={playgroundUrl} target="_blank" rel="noopener noreferrer">
+            <Button text="Check demo" />
+          </a>
         </div>
       </header>
 

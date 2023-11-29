@@ -1,3 +1,9 @@
+import {
+  discordUrl,
+  linkedInUrl,
+  playgroundUrl,
+  twitterUrl,
+} from "@/socialLinks";
 import { cn } from "@/utils";
 import Link from "next/link";
 import Button from "../Button";
@@ -18,7 +24,7 @@ const navLinks = [
     },
     {
       name: "Check Demo",
-      href: "#",
+      href: playgroundUrl,
     },
   ],
   [
@@ -38,16 +44,16 @@ const navLinks = [
   [
     {
       name: "Twitter",
-      href: "https://twitter.com/useintegraflow",
+      href: twitterUrl,
     },
     {
       name: "LinkedIn",
-      href: "https://www.linkedin.com/company/useintegraflow",
+      href: linkedInUrl,
     },
-    // {
-    //   name: "Instagram",
-    //   href: "#",
-    // },
+    {
+      name: "Discord",
+      href: discordUrl,
+    },
   ],
 ];
 

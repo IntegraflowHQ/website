@@ -1,3 +1,4 @@
+import { playgroundUrl } from "@/socialLinks";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "../Button";
@@ -54,11 +55,13 @@ export default function Hero() {
                 className: "sm:w-[240px]",
               }}
             />
-            <Button
-              text="Check demo"
-              className="sm:w-[240px]"
-              variant="secondary"
-            />
+            <a href={playgroundUrl} target="_blank" rel="noopener noreferrer">
+              <Button
+                text="Check demo"
+                className="sm:w-[240px]"
+                variant="secondary"
+              />
+            </a>
           </div>
         </div>
         <div className="mt-12 flex items-center gap-2 md:mt-[125px] md:gap-[14px]">
@@ -87,8 +90,7 @@ export default function Hero() {
           </div>
           <p className="max-w-[208px] text-xs leading-[18px] text-IFText md:max-w-[316px] md:text-lg">
             Join over <span className="text-white">(100+)</span> other{" "}
-            <span className="text-white">businesses</span> today in the
-            waitlist)
+            <span className="text-white">businesses</span> today in the waitlist
           </p>
         </div>
       </div>

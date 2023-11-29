@@ -1,10 +1,11 @@
 "use client";
 import AnalysisImage from "@/assets/images/analysis.png";
+import { playgroundUrl } from "@/socialLinks";
 import { cn } from "@/utils";
 import * as Tabs from "@radix-ui/react-tabs";
 import Image from "next/image";
 import { useState } from "react";
-import WaitlistModal from "./WaitlistModal";
+import Button from "../Button";
 import Pill from "./partials/Pill";
 
 const features = [
@@ -100,7 +101,7 @@ export default function Data() {
   };
 
   return (
-    <div className="lg:bg-data rounded-t-xl bg-IFBlack bg-right-bottom bg-no-repeat px-4 py-8 lg:rounded-t-[32px]  lg:px-5 lg:py-20">
+    <div className="rounded-t-xl bg-IFBlack bg-right-bottom bg-no-repeat px-4 py-8 lg:rounded-t-[32px] lg:bg-data  lg:px-5 lg:py-20">
       <section className="container mx-auto w-full space-y-6 lg:space-y-16 xl:px-20">
         <header className="max-w-[443px] space-y-2 lg:space-y-[17px]">
           <Pill text="Data is key" />
@@ -179,12 +180,13 @@ export default function Data() {
                     {feature.description}
                   </p>
                 </header>
-                <WaitlistModal
-                  buttonProps={{
-                    text: "Check demo",
-                    className: "mt-8",
-                  }}
-                />
+                <a
+                  href={playgroundUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button className="mt-8" text="Check demo" />
+                </a>
               </div>
 
               <Image

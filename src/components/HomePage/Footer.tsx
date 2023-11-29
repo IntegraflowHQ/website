@@ -1,4 +1,4 @@
-import { playgroundUrl } from "@/routes";
+import { linkedInUrl, playgroundUrl, twitterUrl } from "@/routes";
 import { cn } from "@/utils";
 import Link from "next/link";
 import Button from "../Button";
@@ -39,11 +39,11 @@ const navLinks = [
   [
     {
       name: "Twitter",
-      href: "https://twitter.com/useintegraflow",
+      href: twitterUrl,
     },
     {
       name: "LinkedIn",
-      href: "https://www.linkedin.com/company/useintegraflow",
+      href: linkedInUrl,
     },
     // {
     //   name: "Instagram",

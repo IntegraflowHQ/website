@@ -90,8 +90,7 @@ export default function Hero() {
           </div>
           <p className="max-w-[208px] text-xs leading-[18px] text-IFText md:max-w-[316px] md:text-lg">
             Join over <span className="text-white">(100+)</span> other{" "}
-            <span className="text-white">businesses</span> today in the
-            waitlist)
+            <span className="text-white">businesses</span> today in the waitlist
           </p>
         </div>
       </div>

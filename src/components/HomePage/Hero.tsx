@@ -10,10 +10,10 @@ export default function Hero() {
       className="w-full rounded-b-xl pt-[46px] md:rounded-b-3xl md:pt-[122px]"
       style={{
         backgroundImage:
-          "url('/bg-line.svg'), url(/bg-dots.svg), linear-gradient(140deg, rgba(28, 15, 89, 0.95) 40%, rgba(0, 107, 41, 0.95)), url(/bg.svg)",
-        backgroundRepeat: "no-repeat, no-repeat, no-repeat, no-repeat",
-        backgroundPosition: "center, center, center, center",
-        backgroundSize: "cover, cover, cover, cover",
+          "url(/bg-dots.svg), linear-gradient(140deg, rgba(28, 15, 89, 0.95) 40%, rgba(0, 107, 41, 0.95)), url(/bg.svg)",
+        backgroundRepeat: "no-repeat, no-repeat, no-repeat",
+        backgroundPosition: "center, center, center",
+        backgroundSize: "cover, cover, cover",
       }}
     >
       <div className="mx-auto flex h-full max-w-[930px] flex-col items-center justify-between pb-5 pl-[14px] pr-[11px]">

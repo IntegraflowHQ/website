@@ -1,5 +1,5 @@
 "use client";
-import { discordUrl, linkedInUrl, twitterUrl } from "@/routes";
+import { discordUrl, linkedInUrl, twitterUrl } from "@/socialLinks";
 import { cn } from "@/utils";
 import * as Dialog from "@radix-ui/react-dialog";
 import Link from "next/link";

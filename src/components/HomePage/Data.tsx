@@ -1,6 +1,6 @@
 "use client";
 import AnalysisImage from "@/assets/images/analysis.png";
-import { playgroundUrl } from "@/routes";
+import { playgroundUrl } from "@/socialLinks";
 import { cn } from "@/utils";
 import * as Tabs from "@radix-ui/react-tabs";
 import Image from "next/image";

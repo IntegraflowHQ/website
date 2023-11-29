@@ -1,4 +1,4 @@
-import { playgroundUrl } from "@/routes";
+import { playgroundUrl } from "@/socialLinks";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "../Button";

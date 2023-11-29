@@ -1,4 +1,9 @@
-import { discordUrl, linkedInUrl, playgroundUrl, twitterUrl } from "@/routes";
+import {
+  discordUrl,
+  linkedInUrl,
+  playgroundUrl,
+  twitterUrl,
+} from "@/socialLinks";
 import { cn } from "@/utils";
 import Link from "next/link";
 import Button from "../Button";

@@ -11,16 +11,8 @@ import Button from "../Button";
 const navLinks = [
   [
     {
-      name: "About",
-      href: "#",
-    },
-    {
       name: "Survey Types",
       href: "#survey-types",
-    },
-    {
-      name: "Blog",
-      href: "#",
     },
     {
       name: "Check Demo",

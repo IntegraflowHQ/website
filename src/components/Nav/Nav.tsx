@@ -16,7 +16,7 @@ const links = [
   {
     name: "Use Cases",
     href: "#use-cases",
-  },,
+  },
   {
     name: "FAQ",
     href: "#faq",

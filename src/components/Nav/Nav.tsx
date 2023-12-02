@@ -16,11 +16,7 @@ const links = [
   {
     name: "Use Cases",
     href: "#use-cases",
-  },
-  {
-    name: "Blog",
-    href: "#",
-  },
+  },,
   {
     name: "FAQ",
     href: "#faq",
